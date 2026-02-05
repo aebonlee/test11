@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(pandoc:*)",
+      "Bash(node temp_html_to_pdf.js:*)",
+      "Bash(npm install:*)",
+      "Bash(node inbox_server.js:*)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(for i in {1..3})",
+      "Bash(do curl -X POST http://localhost:3030/save -H \"Content-Type: application/json\" -d \"{\"\"content\"\":\"\"# Task $i\\n\\nTest content $i\"\",\"\"filename\"\":\"\"task_test_$i.md\"\"}\" -s)",
+      "Bash(done)",
+      "WebSearch",
+      "WebFetch(domain:www.perplexity.ai)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(vercel deploy:*)",
+      "Bash(python populate_all_tables.py:*)",
+      "Bash(python -c:*)",
+      "Bash(python check_politician_duplicates.py:*)",
+      "Bash(python:*)",
+      "Bash(node test_favorite_api.js:*)",
+      "Bash(node test_db_direct.js:*)",
+      "Bash(node:*)",
+      "Bash(npm run build:*)",
+      "Bash(bash:*)",
+      "Bash(tee:*)",
+      "Bash(vercel logs:*)",
+      "Bash(git push:*)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

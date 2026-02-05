@@ -1,0 +1,43 @@
+{
+  "member": {
+    "프로필 수정": {
+      "status": "PASS"
+    },
+    "게시글 공감": {
+      "status": "FAIL",
+      "error": "Could not find the table 'public.votes' in the schema cache"
+    },
+    "댓글 공감": {
+      "status": "FAIL",
+      "error": "Could not find the table 'public.votes' in the schema cache"
+    },
+    "게시글 신고": {
+      "status": "FAIL",
+      "error": "Could not find the table 'public.reports' in the schema cache"
+    },
+    "알림 조회": {
+      "status": "PASS",
+      "count": 0
+    },
+    "게시글 공유": {
+      "status": "FAIL",
+      "error": "Could not find the 'target_id' column of 'shares' in the schema cache"
+    },
+    "게시글 삭제": {
+      "status": "PASS"
+    },
+    "댓글 삭제": {
+      "status": "PASS"
+    }
+  },
+  "politician": {
+    "정치인 댓글": {
+      "status": "PASS",
+      "note": "테이블 존재, 인증 시스템 연동"
+    },
+    "정치인 게시글": {
+      "status": "PASS",
+      "count": 5
+    }
+  }
+}

@@ -1,0 +1,3635 @@
+{
+  "data_pool_size": 150,
+  "evaluation_results": {
+    "ChatGPT": [
+      {
+        "item_id": 152382,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "ChatGPT",
+        "original_rating": "H",
+        "new_rating": "H",
+        "rating_rationale": "부동산 정책 실패로 서민 주거 안정성을 위협한 점은 공익에 치명적인 결함을 초래했다."
+      },
+      {
+        "item_id": 152383,
+        "data_title": "재개발 사업의 비리 연루",
+        "collected_by": "ChatGPT",
+        "original_rating": "F",
+        "new_rating": "H",
+        "rating_rationale": "재개발 사업 비리 연루는 공직자로서의 윤리성을 심각하게 훼손하며, 공공의 이익을 크게 해쳤다."
+      },
+      {
+        "item_id": 152384,
+        "data_title": "신규 도로 건설의 환경 영향",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "H",
+        "rating_rationale": "신규 도로 건설로 인한 환경 파괴는 주민들의 생명과 건강에 직접적인 위협을 주어 공익에 심각한 문제를 일으켰다."
+      },
+      {
+        "item_id": 152385,
+        "data_title": "공공기관 무관용 정책 비판",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "무관용 정책은 공공기관의 자율성을 저해하여 비효율성을 초래하지만, 그 자체로 공익을 해치는 정도는 상대적으로 미흡하다."
+      },
+      {
+        "item_id": 152386,
+        "data_title": "세종시 특별법 논란",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "E",
+        "rating_rationale": "세종시 특별법 논란은 지역 간 불균형을 심화시킬 우려가 있지만, 직접적인 공익 피해는 미미하다."
+      },
+      {
+        "item_id": 152387,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "H",
+        "rating_rationale": "부동산 가격 상승 문제를 해결하지 못해 서민의 주거 안정성을 심각하게 위협하는 것은 공익에 치명적이다."
+      },
+      {
+        "item_id": 152388,
+        "data_title": "공공기관 이전 논란",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "공공기관 이전이 지역 경제에 악영향을 미칠 수 있으나, 직접적인 피해가 발생하지 않는 한 공익적 결함은 미흡하다."
+      },
+      {
+        "item_id": 152389,
+        "data_title": "요청받은 예산 삭감",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "H",
+        "rating_rationale": "복지 관련 예산 삭감은 시민들의 기본적인 복지 서비스 이용에 큰 어려움을 주어 공익에 중대한 영향을 미쳤다."
+      },
+      {
+        "item_id": 152390,
+        "data_title": "환경 정책 미비",
+        "collected_by": "ChatGPT",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "대기오염 문제에 대한 미비한 대처는 장기적으로 시민 건강에 부정적 영향을 줄 수 있으나, 즉각적인 피해는 부족하다."
+      },
+      {
+        "item_id": 152391,
+        "data_title": "지역 주민 의견 무시",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "G",
+        "rating_rationale": "지역 주민의 의견 무시는 정책의 정당성을 크게 훼손하며, 이는 공익을 심각하게 저해하는 요소로 평가된다."
+      },
+      {
+        "item_id": 152392,
+        "data_title": "서울시 재정개편",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "재정 효율성을 통해 복지 예산을 증대시키고 시민 삶의 질 향상에 기여한 점에서 매우 우수한 공익성을 보임."
+      },
+      {
+        "item_id": 152393,
+        "data_title": "주택 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년과 신혼부부를 위한 공공임대주택 확대는 주거 안정성 강화에 기여, 사회적 필요를 충족시키는 좋은 정책임."
+      },
+      {
+        "item_id": 152394,
+        "data_title": "교통 개선 사업",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "대중교통 개선과 친환경 교통 수단 확산은 시민의 이동 편의성을 높이고 환경 보호에도 기여, 매우 긍정적임."
+      },
+      {
+        "item_id": 152395,
+        "data_title": "환경 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "지속 가능한 도시를 위한 환경 정책은 시민 건강과 복지에 직접적인 영향을 미치며, 매우 우수한 공익성을 가짐."
+      },
+      {
+        "item_id": 152396,
+        "data_title": "디지털서울",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "스마트 서울 정책은 시민 서비스 개선에 크게 기여하며, 도시의 디지털 전환을 통한 공익적 효과가 큼."
+      },
+      {
+        "item_id": 152397,
+        "data_title": "사회적 경제 지원",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "사회적 경제 지원은 지역 경제 자립성을 높이는 데 기여하나, 보다 직접적인 시민 혜택이 필요함."
+      },
+      {
+        "item_id": 152398,
+        "data_title": "노인 복지 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "노인 복지 서비스 개선은 긍정적이나 여전히 수요에 비해 부족한 점이 있어 양호한 수준에 그침."
+      },
+      {
+        "item_id": 152399,
+        "data_title": "여성 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "여성의 경제적 자립과 안전을 위한 정책은 사회적 평등을 증진시키는 중요한 역할을 하여 매우 우수함."
+      },
+      {
+        "item_id": 152400,
+        "data_title": "청소년 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "청소년을 위한 교육 및 상담 서비스 제공은 미래 세대를 위한 투자로 매우 긍정적인 공익적 효과를 지님."
+      },
+      {
+        "item_id": 152401,
+        "data_title": "문화 예술 지원",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "문화 예술 지원은 필요하나 특정 분야에 집중된 지원이 균형 발전을 저해, 보통 수준의 공익성을 보임."
+      },
+      {
+        "item_id": 152402,
+        "data_title": "소상공인 지원 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "소상공인 지원 정책은 코로나19로 피해를 입은 이들에게 실질적인 도움을 제공하여 경제 회복에 기여합니다."
+      },
+      {
+        "item_id": 152403,
+        "data_title": "교통혼잡개선사업",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "C",
+        "rating_rationale": "교통혼잡개선사업은 도로의 효율성을 높이지만, 여전히 심각한 문제로 남아있어 개선이 필요합니다."
+      },
+      {
+        "item_id": 152404,
+        "data_title": "재활용 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "재활용 정책은 시민 참여를 통해 환경 문제 해결에 긍정적인 영향을 미치고 있으나, 더 많은 참여 유도 필요합니다."
+      },
+      {
+        "item_id": 152405,
+        "data_title": "순환 경제 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "순환 경제 정책은 자원의 효율적 사용을 강조하며, 시민과 기업의 협력을 통해 긍정적인 변화를 이끌고 있습니다."
+      },
+      {
+        "item_id": 152406,
+        "data_title": "재난 안전 관리",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "재난 안전 관리 정책은 시민 보호를 위한 교육과 시스템 구축을 통해 높은 공익성을 가지고 있습니다."
+      },
+      {
+        "item_id": 152407,
+        "data_title": "지역 균형 발전",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "지역 균형 발전 정책은 필요하나, 일부 지역의 집중 투자로 인해 불균형이 발생하고 있어 개선이 필요합니다."
+      },
+      {
+        "item_id": 152408,
+        "data_title": "공공 의료 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공공 의료 정책은 취약 계층을 위한 서비스 확충을 통해 사회적 형평성을 높이고 있습니다."
+      },
+      {
+        "item_id": 152409,
+        "data_title": "다문화 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "다문화 정책은 다양한 문화를 존중하고 지원하는 방향으로 나아가고 있어 긍정적입니다."
+      },
+      {
+        "item_id": 152410,
+        "data_title": "지역사회 통합",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "지역사회 통합 정책은 다양한 주체 간 협력을 통해 사회적 연대감을 증진시키고 있습니다."
+      },
+      {
+        "item_id": 152411,
+        "data_title": "교통 안전 개선",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "교통 안전 개선 정책은 사고 예방을 위한 교육과 캠페인을 통해 시민의 안전을 높이고 있습니다."
+      },
+      {
+        "item_id": 152412,
+        "data_title": "서울시 코로나19 대응",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 대응을 통해 서울시 감염률을 낮추는 데 기여하였으며, 이는 공공의 건강과 안전을 지키는 중요한 정책으로 매우 긍정적이다."
+      },
+      {
+        "item_id": 152413,
+        "data_title": "주택 공급 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "C",
+        "rating_rationale": "주택 공급 정책이 주민 반발을 일으킨 점은 아쉽지만, 주택 문제 해결을 위한 노력은 공익적 측면에서 양호하다."
+      },
+      {
+        "item_id": 152414,
+        "data_title": "제주 재난지원금 지급",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "서울 시민에게 재난지원금을 지급하여 경제적 어려움을 덜어주는 정책은 공익적 측면에서 긍정적이다. 그러나 지역적 한정성이 아쉽다."
+      },
+      {
+        "item_id": 152415,
+        "data_title": "대중교통 개선 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "대중교통 개선 정책이 발표되었으나, 시민들이 체감하지 못하는 불만이 있어 효과가 미흡한 점이 아쉽다."
+      },
+      {
+        "item_id": 152416,
+        "data_title": "서울시 환경 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "E",
+        "rating_rationale": "미세먼지 저감 정책이 추진되었으나 효과가 미미하다는 평가를 받고 있어, 환경 문제 해결에 대한 공익성이 부족하다."
+      },
+      {
+        "item_id": 152417,
+        "data_title": "문화재 보호 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "문화재 보호 및 관리 강화를 위한 예산 증가 발표는 문화유산 보존에 기여할 수 있어 공익적 측면에서 긍정적이다."
+      },
+      {
+        "item_id": 152418,
+        "data_title": "교통 혼잡 해소 계획",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "교통 혼잡 해소를 위한 대책이 발표되었으나, 실제로 체감하지 못하는 시민들이 많아 실효성이 떨어진다."
+      },
+      {
+        "item_id": 152419,
+        "data_title": "지속 가능한 개발 목표",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "지속 가능한 발전 비전과 목표 제시는 공익적 가치가 높고, 시민단체와의 협력으로 시민 참여를 유도하고 있다."
+      },
+      {
+        "item_id": 152420,
+        "data_title": "복지 예산 확대",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "복지 예산 확대는 시민의 복지 체감도를 높이는 데 기여하여 공익적 측면에서 매우 우수하다."
+      },
+      {
+        "item_id": 152421,
+        "data_title": "청년 정책 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청년 정책 강화는 청년층의 문제를 해결하기 위한 노력으로 공익적 측면에서 긍정적이나, 구체적인 성과가 더 필요하다."
+      },
+      {
+        "item_id": 152422,
+        "data_title": "노인복지 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "노인복지 강화는 사회적 약자를 보호하고 지원하는 정책으로, 공익성이 매우 높다고 평가된다."
+      },
+      {
+        "item_id": 152423,
+        "data_title": "대기환경 개선",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "C",
+        "rating_rationale": "대기환경 개선 의지는 긍정적이지만, 실행력이 미흡해 실질적인 효과를 내지 못하고 있어 양호하다고 판단된다."
+      },
+      {
+        "item_id": 152424,
+        "data_title": "지역 균형 발전",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "균형 발전 전략은 필요하지만, 실질적인 변화가 미비해 보통 수준으로 평가된다."
+      },
+      {
+        "item_id": 152425,
+        "data_title": "안전 도시 조성",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "범죄 예방과 재난 대응 시스템 구축은 시민 안전을 직접적으로 개선하는 정책으로 매우 우수하다."
+      },
+      {
+        "item_id": 152426,
+        "data_title": "수자원 관리 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "수자원 관리의 중요성을 언급하였으나, 실행 방안 부족으로 인해 공익성이 미흡하다고 평가된다."
+      },
+      {
+        "item_id": 152427,
+        "data_title": "소상공인 지원 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "소상공인 지원 정책은 필요한 정책이나 효과가 제한적이어서 보통 수준으로 평가된다."
+      },
+      {
+        "item_id": 152428,
+        "data_title": "시민참여 플랫폼 구축",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "시민 참여 플랫폼 구축이 필요하나, 실제 운영에서의 논란으로 인해 공익성이 미흡하다고 판단된다."
+      },
+      {
+        "item_id": 152429,
+        "data_title": "여성정책 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "여성 정책 강화와 성평등 프로그램 추진은 사회적 가치가 높아 우수한 평가를 받을 수 있다."
+      },
+      {
+        "item_id": 152430,
+        "data_title": "시민 안전 캠페인",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "시민 안전 캠페인은 긍정적이나 실질적인 결과가 부족하여 보통 수준으로 평가된다."
+      },
+      {
+        "item_id": 152431,
+        "data_title": "환경 교육 확대",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "환경 교육 확대는 미래 세대를 위한 중요한 정책으로, 공익성이 높아 우수하다고 평가된다."
+      },
+      {
+        "item_id": 152282,
+        "data_title": "부동산 재개발 정책의 강제 이주 논란",
+        "collected_by": "Grok",
+        "original_rating": "E",
+        "new_rating": "H",
+        "rating_rationale": "저소득층 주민들의 강제 이주로 주거 안정성이 저해되었으며, 공익적 균형 발전을 무시한 정책으로 소외 계층의 생활 환경이 악화되었다."
+      },
+      {
+        "item_id": 152283,
+        "data_title": "코로나19 대응의 백신 배포 지연 문제",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "H",
+        "rating_rationale": "백신 배포 지연으로 인해 고위험군 보호에 실패하여 공공 보건 복지를 저해하였고, 시민 안전이 위협받는 심각한 문제를 초래하였다."
+      },
+      {
+        "item_id": 152284,
+        "data_title": "환경 정책의 오염 유발 비판",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "H",
+        "rating_rationale": "환경 오염 증가와 생태계 파괴를 초래한 정책은 공익적 환경 보호를 무시하고 경제적 이익을 우선시한 심각한 결함을 나타낸다."
+      },
+      {
+        "item_id": 152285,
+        "data_title": "복지 예산 삭감 관련 논란",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "H",
+        "rating_rationale": "복지 예산 삭감으로 저소득층 지원이 약화되었으며, 사회 불평등을 심화시킨 정책은 공익적 복지 우선 원칙을 저버린 중대한 문제이다."
+      },
+      {
+        "item_id": 152286,
+        "data_title": "투명성 부족과 공공 프로젝트 실패",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "H",
+        "rating_rationale": "공공 프로젝트 관리에서의 투명성 부족은 공익적 자원 배분을 해치고 예산 유출 문제를 초래하여 심각한 결함을 드러냈다."
+      },
+      {
+        "item_id": 152287,
+        "data_title": "부동산 정책의 부유층 편향 논란",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "H",
+        "rating_rationale": "부유층 편향의 부동산 정책은 주거 불평등을 심화시켜 공익적 균형 발전을 저해하며, 사회적 불만을 증폭시키는 중대한 결함이 있다."
+      },
+      {
+        "item_id": 152288,
+        "data_title": "코로나19 대응의 백신 수급 실패",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "H",
+        "rating_rationale": "백신 수급 실패는 공공 보건을 우선하지 못한 결과로, 취약계층의 피해를 키우며 공익적 관점에서 복지와 안전을 소홀히 한 심각한 사례이다."
+      },
+      {
+        "item_id": 152289,
+        "data_title": "용산 개발 계획의 주민 피해 문제",
+        "collected_by": "Grok",
+        "original_rating": "H",
+        "new_rating": "H",
+        "rating_rationale": "강제 이주와 주민 권리 침해는 주민 의견 수렴을 하지 않고 지역 불평등을 심화시켜 공익적 환경 보호를 무시한 심각한 문제로 비판받았다."
+      },
+      {
+        "item_id": 152290,
+        "data_title": "미세먼지 대책의 환경 정책 미흡",
+        "collected_by": "Grok",
+        "original_rating": "E",
+        "new_rating": "H",
+        "rating_rationale": "미세먼지 대책이 효과적이지 못하고 단기적 행정에 그치면서 시민 건강에 위협을 주어 복지와 환경 균형 발전에서 큰 결함을 드러냈다."
+      },
+      {
+        "item_id": 152291,
+        "data_title": "복지 예산 축소와 저소득층 지원 부족",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "H",
+        "rating_rationale": "복지 예산 축소로 저소득층 지원이 부족해져 취약계층의 생활 안정이 위협받으며, 사회적 불평등을 가중시키는 중대한 결함을 보였다."
+      },
+      {
+        "item_id": 152292,
+        "data_title": "저소득층 복지 지원 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "저소득층 복지 지원 확대는 긍정적이나, 전체 인구 대비 커버리지가 제한적이다. 복지 예산 증가율은 높으나, 더 많은 계층에 대한 지원이 필요하다."
+      },
+      {
+        "item_id": 152293,
+        "data_title": "미세먼지 대책 추진",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 저감 대책은 시민 건강과 환경 보호에 기여하며, 구체적인 목표와 실행 방안이 명확하다. 이는 공익성을 높이는 정책이다."
+      },
+      {
+        "item_id": 152294,
+        "data_title": "도시 균형 발전 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "도시 균형 발전 프로젝트는 지역 불균형 해소에 기여하지만, 장기적인 효과를 위해 더 많은 지속적인 노력이 필요하다. 예산 투입도 긍정적이다."
+      },
+      {
+        "item_id": 152295,
+        "data_title": "공공주택 공급 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공공주택 공급 확대는 청년과 무주택자에게 큰 도움이 되며, 주거 안정성을 높이는 중요한 정책이다. 목표 달성도 긍정적이다."
+      },
+      {
+        "item_id": 152296,
+        "data_title": "코로나19 대응 방역 정책",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 대응 방역 정책은 공공 보건을 우선시하고, 광범위한 검사 및 백신 접종을 지원하여 시민의 안전과 건강을 보호했다."
+      },
+      {
+        "item_id": 152297,
+        "data_title": "공교육 강화 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "공교육 강화 정책은 교육 불평등 해소에 기여하지만, 무상교육 확대와 시설 개선이 더 필요하다. 저소득층에 대한 지원은 긍정적이다."
+      },
+      {
+        "item_id": 152298,
+        "data_title": "지속 가능한 에너지 전환",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "지속 가능한 에너지 전환 정책은 환경 보호에 기여하며, 시민 참여를 통한 에너지 전환은 긍정적인 방향으로 평가된다."
+      },
+      {
+        "item_id": 152299,
+        "data_title": "청소년 복지 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "청소년 복지 프로그램 확대는 청소년의 정신 건강과 사회적 통합에 기여하며, 예산 증가와 서비스 제공 규모가 매우 긍정적이다."
+      },
+      {
+        "item_id": 152300,
+        "data_title": "노인 복지 강화",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "노인 복지 강화는 고령화 사회에 대한 적극적인 대응이나, 시설과 지원의 질을 높이기 위한 추가적인 노력이 필요하다."
+      },
+      {
+        "item_id": 152301,
+        "data_title": "성평등 촉진 정책",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "성평등 촉진 정책은 긍정적이나, 성별 임금 격차 개선의 실질적 효과와 지속 가능성을 위한 추가적인 노력이 필요하다."
+      },
+      {
+        "item_id": 152302,
+        "data_title": "소상공인 지원 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "소상공인 지원을 위한 예산 증가는 경제 회복과 직결되며, 5만 개 사업체에 도움이 되어 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 152303,
+        "data_title": "도시 녹지 확장",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "도시 녹지 확장은 시민 건강과 삶의 질 향상에 기여하며, 대규모 프로젝트로 공익성이 매우 높다."
+      },
+      {
+        "item_id": 152304,
+        "data_title": "수자원 관리 강화",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "수자원 관리 강화는 재난 예방 및 지속 가능한 자원 관리에 기여하나, 효과 직접성에 대한 구체적 성과가 부족하다."
+      },
+      {
+        "item_id": 152305,
+        "data_title": "대중교통 개선",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "대중교통 개선으로 교통 혼잡이 줄어들고 시민 편의성이 향상되어 공익성 측면에서 매우 우수하다."
+      },
+      {
+        "item_id": 152306,
+        "data_title": "스마트 시티 구축",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "스마트 시티 구축은 도시 관리의 효율성을 높이지만, 시민의 직접적인 생활 변화에 대한 구체적 사례가 부족하다."
+      },
+      {
+        "item_id": 152307,
+        "data_title": "재난 대비 시스템",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "재난 대비 시스템 강화는 시민 안전을 직접적으로 높이며, 교육 프로그램 확대가 효과적으로 작용할 것으로 기대된다."
+      },
+      {
+        "item_id": 152308,
+        "data_title": "문화 시설 확충",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "문화 시설의 확충은 시민의 문화 접근성을 높여 사회적 평등을 증진시키며, 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 152309,
+        "data_title": "일자리 창출 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 일자리 창출 프로그램은 실업 문제 해결에 큰 기여를 하며, 경제적 안정성을 높이는 데 매우 긍정적이다."
+      },
+      {
+        "item_id": 152310,
+        "data_title": "건강 증진 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "건강 증진 캠페인은 예방의료를 통해 시민 건강을 향상시키고, 공공의료 서비스의 접근성을 높여 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 152311,
+        "data_title": "한강 재생 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "한강 재생 프로젝트는 환경 회복과 시민의 레저 공간을 동시에 제공하여 공익성이 매우 높다."
+      },
+      {
+        "item_id": 152312,
+        "data_title": "코로나19 대응 정책",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "코로나19 대응은 시민의 건강과 경제를 동시에 고려한 조치로, 공익적 측면이 있으나 일부 효과성에 대한 비판이 있어 A등급은 어려움."
+      },
+      {
+        "item_id": 152313,
+        "data_title": "한강 르네상스 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "한강 르네상스는 시민의 휴식 공간 확대와 도시 미관 개선에 기여했으나, 개발 비용 증가로 세금 부담이 발생해 A등급은 힘듦."
+      },
+      {
+        "item_id": 152314,
+        "data_title": "미세먼지 저감 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 저감 정책은 환경 보호와 시민 건강을 우선시한 정책으로, 공익적 효과가 크고 시민의 삶의 질 향상에 기여."
+      },
+      {
+        "item_id": 152315,
+        "data_title": "주거 복지 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "주거 복지 확대는 저소득층의 주거 안정을 위한 조치로, 주거 불평등 해소에 긍정적인 영향을 미치며 공익적 성격이 매우 강함."
+      },
+      {
+        "item_id": 152316,
+        "data_title": "교육 지원 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "교육 지원 프로그램은 코로나로 인해 발생한 교육 격차를 해소하고, 저소득층 아동을 우선 배려함으로써 공익적 효과가 매우 큼."
+      },
+      {
+        "item_id": 152317,
+        "data_title": "교통 인프라 개선",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "교통 인프라 개선은 도시 이동의 공익적 접근을 통해 고령자와 장애인의 접근성을 높여 시민의 삶의 질 향상에 크게 기여."
+      },
+      {
+        "item_id": 152318,
+        "data_title": "청년 일자리 창출",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 일자리 창출 정책은 실업률 감소와 경제적 공익을 목표로 하며, 청년층 복지 향상에 기여하는 점에서 매우 우수한 평가를 받을 수 있음."
+      },
+      {
+        "item_id": 152319,
+        "data_title": "고령자 복지 강화",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "고령자 복지 강화는 인구 고령화 시대에 맞춘 정책으로, 고령자의 삶의 질을 높이고 지역 사회의 균형을 고려한 매우 공익적인 접근."
+      },
+      {
+        "item_id": 152320,
+        "data_title": "환경 보호 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "환경 보호 캠페인은 지속 가능한 환경 정책을 추진하며 시민 참여를 유도, 기후 변화 대응에 공익적 측면이 강해 매우 긍정적인 평가."
+      },
+      {
+        "item_id": 152321,
+        "data_title": "재난 대비 시스템",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "재난 대비 시스템 개선은 시민의 안전을 강화하고 취약 지역 우선 투자로 공익적 효과가 크며, 매우 중요하고 긍정적인 정책."
+      },
+      {
+        "item_id": 152322,
+        "data_title": "다문화 가족 지원",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "다문화 가족 지원은 사회 통합과 복지를 증진시키며, 다양한 문화가 공존하는 사회를 만드는 데 기여합니다."
+      },
+      {
+        "item_id": 152323,
+        "data_title": "여성 정책 강화",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "여성 정책 강화는 성평등을 추구하며 사회적 불평등 해소에 기여, 이는 공익적 가치가 높습니다."
+      },
+      {
+        "item_id": 152324,
+        "data_title": "장애인 복지 확대",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "장애인 복지 확대는 사회적 약자의 권리를 보호하고 접근성을 높여, 공익적 균형 발전에 기여합니다."
+      },
+      {
+        "item_id": 152325,
+        "data_title": "문화 예술 지원",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "문화 예술 지원은 시민의 문화 접근성을 높이나, 상대적으로 직접적인 공익성은 낮을 수 있습니다."
+      },
+      {
+        "item_id": 152326,
+        "data_title": "에너지 절약 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "에너지 절약 캠페인은 환경 보호와 기후 변화 대응을 통해 사회 전체에 긍정적인 영향을 미칩니다."
+      },
+      {
+        "item_id": 152327,
+        "data_title": "스타트업 육성 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "스타트업 육성 정책은 경제적 공익을 추구하나, 직접적인 사회적 혜택은 상대적으로 제한적입니다."
+      },
+      {
+        "item_id": 152328,
+        "data_title": "재정 관리 효율화",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "재정 관리 효율화는 세금 낭비 방지와 공익적 지출을 강조하나, 실질적인 효과는 지속적으로 검토 필요합니다."
+      },
+      {
+        "item_id": 152329,
+        "data_title": "공원 확대 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "공원 확대 프로젝트는 시민의 휴식 공간을 제공하여 삶의 질 향상에 기여, 공익적 가치가 높습니다."
+      },
+      {
+        "item_id": 152330,
+        "data_title": "사회적 기업 지원",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "사회적 기업 지원은 취약 계층 고용을 강화하고, 사회적 책임을 다하는 경제 모델을 추진합니다."
+      },
+      {
+        "item_id": 152331,
+        "data_title": "지속 가능한 도시 계획",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "지속 가능한 도시 계획은 환경 보호와 도시 발전의 균형을 추구하며, 장기적인 공익에 기여합니다."
+      },
+      {
+        "item_id": 107721,
+        "data_title": "서울시 주택 정책 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "주택 공급 혼란은 시민의 주거 안정에 큰 영향을 미치며, 정책 실패로 인한 피해가 사회적으로 심각한 문제로 이어질 수 있다."
+      },
+      {
+        "item_id": 107722,
+        "data_title": "코로나19 방역 정책 미흡",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "F",
+        "rating_rationale": "코로나19 방역 정책의 미흡함은 시민의 생명과 건강을 위협하므로 공익성 측면에서 매우 부족한 평가를 받는다."
+      },
+      {
+        "item_id": 107723,
+        "data_title": "사회적 약자 지원 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "사회적 약자에 대한 지원 부족은 복지 사각지대를 초래하며, 이는 공공의 안전망을 약화시켜 심각한 사회문제를 발생시킨다."
+      },
+      {
+        "item_id": 107724,
+        "data_title": "환경정책 일관성 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "환경정책의 일관성 부족은 장기적으로 시민의 건강과 환경에 부정적인 영향을 미치므로 미흡한 평가를 받는다."
+      },
+      {
+        "item_id": 107725,
+        "data_title": "행정 투명성 문제",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "D",
+        "rating_rationale": "행정 투명성 문제는 시민의 신뢰를 저해할 수 있으나, 직접적인 피해가 적어 보통 수준의 평가를 받는다."
+      },
+      {
+        "item_id": 107726,
+        "data_title": "무상주택 공약 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "무상주택 공약의 실현 가능성 문제는 시민의 기대를 저버리는 결과를 초래하여 공익성 측면에서 부족한 평가를 받는다."
+      },
+      {
+        "item_id": 107727,
+        "data_title": "서울시 재난지원금 분배 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "재난지원금 지급의 형평성 문제는 사회적 불만을 초래하고, 지원의 효과성을 저하시킴으로써 미흡한 평가를 받는다."
+      },
+      {
+        "item_id": 107728,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "부동산 정책 실패는 시민의 주거 안정성을 해치고, 경제적 불만을 초래하여 공익성 측면에서 부족한 평가를 받는다."
+      },
+      {
+        "item_id": 107729,
+        "data_title": "청년 정책 실효성 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "청년 정책의 실효성 부족은 청년층의 불만을 초래하고, 이들의 미래에 부정적인 영향을 미쳐 미흡한 평가를 받는다."
+      },
+      {
+        "item_id": 107730,
+        "data_title": "환경 정책 비판",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "F",
+        "rating_rationale": "미세먼지 대책의 미흡함은 시민의 건강에 직접적인 위협을 가하므로 공익성 측면에서 부족한 평가를 받는다."
+      },
+      {
+        "item_id": 107731,
+        "data_title": "청년 주거 지원 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 주거 지원 정책은 청년층의 주거 안정을 도모하며, 사회적 형평성을 높이는 중요한 정책으로 매우 공익적이다."
+      },
+      {
+        "item_id": 107732,
+        "data_title": "코로나19 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 대응은 시민의 생명과 안전을 보호하는 중대한 정책으로, 공공의 건강을 지키는 데 기여하여 매우 우수하다."
+      },
+      {
+        "item_id": 107733,
+        "data_title": "도시 재생 사업",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "도시 재생 사업은 노후 지역의 활력을 되살리며, 주민들의 삶의 질을 향상시키는 데 기여하지만, 일부 지역에 한정될 수 있다."
+      },
+      {
+        "item_id": 107734,
+        "data_title": "대중교통 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 정책은 시민의 이동 편의를 개선하고 교통 혼잡을 줄이는 데 기여하지만, 전반적인 교통 체계에 대한 종합적 접근이 필요하다."
+      },
+      {
+        "item_id": 107735,
+        "data_title": "기후변화 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "기후변화 대응 정책은 지속 가능한 환경을 위한 필수 요소로, 미래 세대를 위한 매우 중요한 공익적 조치이다."
+      },
+      {
+        "item_id": 107736,
+        "data_title": "취약계층 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "취약계층 지원은 사회적 약자를 보호하고, 복지 수준을 향상시키는 데 기여하여 매우 공익적이며 중요한 역할을 한다."
+      },
+      {
+        "item_id": 107737,
+        "data_title": "소상공인 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "소상공인 지원 정책은 경제 회복과 일자리 창출에 긍정적인 영향을 미치지만, 지원의 지속성과 범위가 제한적일 수 있다."
+      },
+      {
+        "item_id": 107738,
+        "data_title": "교육 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "교육 정책은 온라인 교육 인프라를 강화하여 교육 기회를 확대하지만, 접근성 문제와 질적인 부분에서 개선이 필요하다."
+      },
+      {
+        "item_id": 107739,
+        "data_title": "일자리 창출",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "일자리 창출 정책은 청년과 사회적 기업을 지원하며, 고용률을 높여 사회적 안정에 기여하여 매우 우수하다."
+      },
+      {
+        "item_id": 107740,
+        "data_title": "공원 및 녹지 조성",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공원 및 녹지 조성은 시민의 삶의 질을 높이고 생태계를 보호하는 데 기여하는 매우 중요한 공익적 사업이다."
+      },
+      {
+        "item_id": 107741,
+        "data_title": "교통 인프라",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "교통 인프라 개선은 시민의 이동 편의성을 높이고 경제적 효과를 가져오므로 매우 공익적입니다."
+      },
+      {
+        "item_id": 107742,
+        "data_title": "안전 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "범죄 예방과 안전 인프라 구축은 시민의 생명과 재산을 보호하는 중요한 정책으로 공익성이 매우 높습니다."
+      },
+      {
+        "item_id": 107743,
+        "data_title": "문화예술 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "문화예술 지원은 시민의 문화적 삶을 풍요롭게 하지만, 다른 정책에 비해 직접적인 삶의 질 향상은 덜할 수 있습니다."
+      },
+      {
+        "item_id": 107744,
+        "data_title": "여성 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "여성 안전 및 경력단절 여성 지원 정책은 성평등과 사회적 약자 보호에 기여하여 공익성이 매우 높습니다."
+      },
+      {
+        "item_id": 107745,
+        "data_title": "장애인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "장애인 복지 정책은 사회적 약자를 위한 필수적인 지원으로, 공익성 측면에서 매우 우수한 평가를 받을 수 있습니다."
+      },
+      {
+        "item_id": 107746,
+        "data_title": "주거 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "주거 안정성 확보는 시민의 기본 생활을 보장하는 중요한 정책으로, 공익성이 매우 높습니다."
+      },
+      {
+        "item_id": 107747,
+        "data_title": "환경 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "환경 정책은 지속 가능한 발전을 위한 기본 조건을 마련하지만, 즉각적인 변화는 시간이 걸릴 수 있습니다."
+      },
+      {
+        "item_id": 107748,
+        "data_title": "스마트시티 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "스마트시티 정책은 행정 효율성을 높이고 시민 편의를 증대시키나, 일부 시민에게는 접근성 문제가 있을 수 있습니다."
+      },
+      {
+        "item_id": 107749,
+        "data_title": "외국인 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "다문화 지원 정책은 사회적 통합에 기여하지만, 전체 인구에 미치는 영향은 상대적으로 제한적일 수 있습니다."
+      },
+      {
+        "item_id": 107750,
+        "data_title": "노인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "노인 복지 정책은 고령 사회에서 필수적인 지원으로, 공익성을 매우 높게 평가할 수 있습니다."
+      },
+      {
+        "item_id": 107751,
+        "data_title": "청년수당 지원 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년수당 지원은 경제적 지원을 통해 청년의 생활 안정과 자립을 돕고, 사회적 불평등 해소에 기여할 수 있어 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107752,
+        "data_title": "서울형 긴급재난지원금",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 위기 극복을 위한 재난지원금 지급은 시민들의 생계 안정에 직접적인 영향을 미치며, 공공의 이익을 극대화하는 정책이다."
+      },
+      {
+        "item_id": 107753,
+        "data_title": "주거복지 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "공공임대주택 공급 확대와 청년 주거지원은 주거 문제 해결에 기여하지만, 정책의 종합적인 효과에 대한 지속적인 모니터링이 필요하다."
+      },
+      {
+        "item_id": 107754,
+        "data_title": "감염병 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 방역 및 백신 접종 지원은 공공의 건강과 안전을 지키는 데 중요한 역할을 하며, 공익성이 매우 높다."
+      },
+      {
+        "item_id": 107755,
+        "data_title": "취약계층 일자리 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "취약계층 일자리 정책은 사회적 약자에게 기회를 제공하여 사회적 통합을 촉진하지만, 일자리의 질과 지속성에 대한 고려가 필요하다."
+      },
+      {
+        "item_id": 107756,
+        "data_title": "보행환경 개선",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "보행자 중심 도시 인프라 구축은 시민들의 안전과 편의성을 높여주며, 환경적 측면에서도 긍정적이지만, 실효성이 중요하다."
+      },
+      {
+        "item_id": 107757,
+        "data_title": "온실가스 감축",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "온실가스 감축과 탄소중립 정책은 지속 가능한 발전을 위한 필수적인 조치로, 미래 세대의 환경 보호에 크게 기여한다."
+      },
+      {
+        "item_id": 107758,
+        "data_title": "교통혁신",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 개선과 보행친화도시 추진은 시민의 이동 편의를 증진시키며, 환경적 이점도 있지만, 실행의 일관성이 필요하다."
+      },
+      {
+        "item_id": 107759,
+        "data_title": "복지 인프라",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "어린이와 노인 복지시설 확충은 사회적 약자를 보호하는 중요한 정책으로, 공공 복지의 향상을 도모하나, 자원의 한계가 우려된다."
+      },
+      {
+        "item_id": 107760,
+        "data_title": "전통시장 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "소상공인 및 전통시장 활성화 정책은 지역 경제에 긍정적 영향을 미치지만, 정책의 지속 가능성과 구체적인 성과를 검토할 필요가 있다."
+      },
+      {
+        "item_id": 107761,
+        "data_title": "스마트시티 구축",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "스마트시티 구축은 도시 혁신에 기여하지만, 기술 접근성 문제로 일부 시민이 소외될 수 있어 우수한 평가를 받음."
+      },
+      {
+        "item_id": 107762,
+        "data_title": "미세먼지 대책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 대책은 시민의 건강과 환경을 보호하는 중요한 정책으로, 매우 긍정적인 영향을 미칠 것으로 평가됨."
+      },
+      {
+        "item_id": 107763,
+        "data_title": "여성 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "여성 정책은 성평등과 권익 보호를 위한 필수적인 조치로, 사회 전반에 긍정적인 영향을 미치는 매우 우수한 정책임."
+      },
+      {
+        "item_id": 107764,
+        "data_title": "장애인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "A",
+        "rating_rationale": "장애인 복지 정책은 사회적 약자를 보호하고, 모두가 함께하는 사회를 만드는 데 기여하여 매우 긍정적으로 평가됨."
+      },
+      {
+        "item_id": 107765,
+        "data_title": "공원녹지 확충",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "공원녹지 확충은 도시 환경 개선에 기여하나, 일부 지역의 접근성 문제가 남아있어 우수하나 완전한 평가를 받지 못함."
+      },
+      {
+        "item_id": 107766,
+        "data_title": "문화예술 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "문화예술 지원 정책은 지역 문화 발전에 기여하지만, 자원의 한계로 인해 모든 예술가에게 혜택이 돌아가지 않을 수 있음."
+      },
+      {
+        "item_id": 107767,
+        "data_title": "청년 주거정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 주거정책은 청년층의 주거 안정을 위한 중요한 정책으로, 사회적 불안 해소에 크게 기여할 것으로 기대됨."
+      },
+      {
+        "item_id": 107768,
+        "data_title": "교육 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "교육 정책은 평생교육을 지원하여 개인의 발전을 도모하나, 모든 계층에 고르게 혜택이 미치지 않을 수 있어 우수함."
+      },
+      {
+        "item_id": 107769,
+        "data_title": "1인가구 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "1인가구 지원 정책은 사회적 고립을 줄이는 데 기여하지만, 지원의 범위와 실효성에 대한 논의가 필요해 우수한 평가를 받음."
+      },
+      {
+        "item_id": 107770,
+        "data_title": "안전도시 구현",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "안전도시 구현은 시민의 안전을 최우선으로 하는 정책으로, 범죄 예방에 기여하여 매우 긍정적으로 평가됨."
+      }
+    ],
+    "Grok": [
+      {
+        "item_id": 152382,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "ChatGPT",
+        "original_rating": "H",
+        "new_rating": "E",
+        "rating_rationale": "부동산 가격 상승을 통제하지 못해 서민들의 주거 안정성이 크게 위협받았다. 이는 공익성에 미흡한 결과로 평가된다."
+      },
+      {
+        "item_id": 152383,
+        "data_title": "재개발 사업의 비리 연루",
+        "collected_by": "ChatGPT",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "재개발 사업에서 비리와 관련된 의혹이 제기되어 공공의 이익을 해쳤다. 공직자로서의 윤리성에 문제가 있어 공익성에 부족하다."
+      },
+      {
+        "item_id": 152384,
+        "data_title": "신규 도로 건설의 환경 영향",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "신규 도로 건설 프로젝트가 환경 파괴와 생태계 훼손을 초래해 주민들의 반발을 샀다. 자연환경 보호를 간과한 점에서 공익성에 부족하다."
+      },
+      {
+        "item_id": 152385,
+        "data_title": "공공기관 무관용 정책 비판",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "공공기관의 자율성을 저해하고 비효율성을 초래해 공공 서비스의 질을 저하시켰다. 이는 공익성에 미흡한 결과로 평가된다."
+      },
+      {
+        "item_id": 152386,
+        "data_title": "세종시 특별법 논란",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "E",
+        "rating_rationale": "세종시 특별법으로 지역 간 불균형을 심화시킬 우려가 있어 지역 균형 발전 관점에서 공익성에 미흡하다."
+      },
+      {
+        "item_id": 152387,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "부동산 가격 상승 문제 해결에 실패해 서민 주거 안정성이 위협받고 있다. 이는 공익성에 미흡한 결과로 평가된다."
+      },
+      {
+        "item_id": 152388,
+        "data_title": "공공기관 이전 논란",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "공공기관 이전이 지역 경제에 악영향을 미칠 수 있어 일자리 감소 등의 부작용이 우려된다. 이는 공익성에 미흡하다."
+      },
+      {
+        "item_id": 152389,
+        "data_title": "요청받은 예산 삭감",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "복지 관련 예산 삭감으로 시민들의 복지 서비스 이용에 어려움이 생겼다. 특히 노인 및 아동 복지에 대한 지원이 줄어든 점에서 공익성에 미흡하다."
+      },
+      {
+        "item_id": 152390,
+        "data_title": "환경 정책 미비",
+        "collected_by": "ChatGPT",
+        "original_rating": "F",
+        "new_rating": "E",
+        "rating_rationale": "대기오염 및 환경 보호에 대한 대처가 미흡해 서울시의 대기오염 문제 해결이 부족하다고 여겨진다. 이는 공익성에 미흡한 결과다."
+      },
+      {
+        "item_id": 152391,
+        "data_title": "지역 주민 의견 무시",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "지역 주민의 의견이 충분히 반영되지 않아 대규모 개발 프로젝트에 대한 주민의견 수렴 절차가 부족했다. 이는 공익성에 미흡하다."
+      },
+      {
+        "item_id": 152392,
+        "data_title": "서울시 재정개편",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "재정을 효율적으로 운영하여 복지 예산을 증대시키고, 공공 서비스 향상을 중심으로 추진한 점에서 매우 우수하다. 시민의 삶의 질 향상에 직접 기여한 정책으로 평가된다."
+      },
+      {
+        "item_id": 152393,
+        "data_title": "주택 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청년과 신혼부부를 위한 공공임대주택을 늘리는 정책은 우수하지만, 주택 공급 확대가 모든 계층에 균등하게 이루어지지 않았다는 점에서 다소 아쉬움이 남는다."
+      },
+      {
+        "item_id": 152394,
+        "data_title": "교통 개선 사업",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 개선과 친환경 교통 수단 확산을 통한 교통 혼잡 해결 노력은 우수하지만, 모든 지역에 균등하게 적용되지 않은 점에서 다소 한계가 있다."
+      },
+      {
+        "item_id": 152395,
+        "data_title": "환경 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "지속 가능한 도시를 위한 다양한 환경 정책 수립과 시민의 건강을 위한 노력은 매우 우수하다. 신규 녹지 공간 창출 및 미세먼지 저감 정책은 공익성에 크게 기여한다."
+      },
+      {
+        "item_id": 152396,
+        "data_title": "디지털서울",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "디지털 도시 구축과 데이터 기반의 시민 서비스 개선, 교통 관리 시스템의 현대화는 우수하지만, 모든 시민이 혜택을 동등하게 누릴 수 있는지에 대한 의문이 남는다."
+      },
+      {
+        "item_id": 152397,
+        "data_title": "사회적 경제 지원",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "사회적 기업 및 협동조합 지원 정책은 지역 사회의 경제적 자립성을 높이는 데 기여하지만, 지원의 범위와 효과가 더 확대될 필요가 있다."
+      },
+      {
+        "item_id": 152398,
+        "data_title": "노인 복지 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "노인 인구 증가에 따른 복지 서비스 개선과 경로당 및 복지시설의 확대는 양호하지만, 여전히 수요가 부족하다는 점에서 개선의 여지가 있다."
+      },
+      {
+        "item_id": 152399,
+        "data_title": "여성 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "여성의 경제적 자립 및 안전을 위한 다양한 정책과 성폭력 예방 및 지원 시스템 강화는 우수하지만, 더 많은 지원과 관심이 필요하다."
+      },
+      {
+        "item_id": 152400,
+        "data_title": "청소년 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "청소년을 위한 교육 프로그램과 심리 상담 서비스, 인권 보호에 집중한 점은 우수하지만, 모든 청소년이 혜택을 받을 수 있는지에 대한 검토가 필요하다."
+      },
+      {
+        "item_id": 152401,
+        "data_title": "문화 예술 지원",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "C",
+        "rating_rationale": "문화 예술 활성화를 위한 정책은 양호하지만, 주요 지원이 특정 분야에 집중되어 있어 균형적인 발전이 부족한 현실에서 개선이 필요하다."
+      },
+      {
+        "item_id": 152402,
+        "data_title": "소상공인 지원 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "코로나19로 인한 소상공인의 어려움을 해결하기 위한 일자리 및 금융 지원 프로그램은 매우 공익적이며, 사회적 약자를 지원하는 데 큰 기여를 하고 있습니다."
+      },
+      {
+        "item_id": 152403,
+        "data_title": "교통혼잡개선사업",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "C",
+        "rating_rationale": "교통 혼잡 개선사업은 도로의 효율성을 증대시키는 데 기여하고 있으나, 여전히 교통 체증이 심각한 상태라서 공익성 면에서 양호한 수준입니다."
+      },
+      {
+        "item_id": 152404,
+        "data_title": "재활용 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "재활용 활성화를 위한 노력과 시민 참여 프로그램은 환경 보호에 기여하며, 공익성을 높이는 데 우수한 정책입니다."
+      },
+      {
+        "item_id": 152405,
+        "data_title": "순환 경제 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "순환 경제 정책은 자원의 효율적 사용을 촉진하고 시민과 기업의 협력을 강조함으로써 공익성을 높이는 데 우수한 기여를 하고 있습니다."
+      },
+      {
+        "item_id": 152406,
+        "data_title": "재난 안전 관리",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "재난 안전을 위한 다양한 교육과 훈련 프로그램, 그리고 시민 보호 시스템 구축은 매우 공익적인 활동으로, 시민의 안전을 최우선으로 하는 정책입니다."
+      },
+      {
+        "item_id": 152407,
+        "data_title": "지역 균형 발전",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "지역 균형 발전 정책은 수립되었으나, 일부 지역에 대한 집중 투자로 인한 불균형 요소가 있어 공익성 면에서 보통 수준입니다."
+      },
+      {
+        "item_id": 152408,
+        "data_title": "공공 의료 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공공 의료 서비스 확충과 특히 취약 계층을 위한 보장성 증가는 매우 공익적인 활동으로, 사회적 약자를 위한 정책입니다."
+      },
+      {
+        "item_id": 152409,
+        "data_title": "다문화 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "다문화 가정을 위한 지원 정책과 문화적 다양성을 존중하는 방향은 공익성을 높이는 데 우수한 기여를 하고 있습니다."
+      },
+      {
+        "item_id": 152410,
+        "data_title": "지역사회 통합",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "지역사회의 다양한 주체 간 협력과 시민 참여를 유도하는 프로그램은 공익성을 높이는 데 우수한 기여를 하고 있습니다."
+      },
+      {
+        "item_id": 152411,
+        "data_title": "교통 안전 개선",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "교통 안전을 위한 정책과 사고 예방 교육 프로그램, 캠페인은 공익성을 높이는 데 우수한 기여를 하고 있습니다."
+      },
+      {
+        "item_id": 152412,
+        "data_title": "서울시 코로나19 대응",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "오세훈의 적극적인 방역 체제 구축과 백신 접종 독려 정책으로 서울시의 감염률이 낮아지는 결과를 이끌어냈다. 이는 공공의 건강과 안전을 위해 매우 우수한 정책이다."
+      },
+      {
+        "item_id": 152413,
+        "data_title": "주택 공급 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "C",
+        "rating_rationale": "주택 공급 확대 정책은 양호한 의도였으나, 일부 지역에서의 주민 반발과 합의 문제가 해결되지 않아 보통 수준의 공익성을 나타냈다."
+      },
+      {
+        "item_id": 152414,
+        "data_title": "제주 재난지원금 지급",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "제주도에 거주하는 서울 시민에게 재난지원금을 지급하여 경제적 어려움을 해소하는 데 기여하였다. 이는 우수한 공익성을 나타낸다."
+      },
+      {
+        "item_id": 152415,
+        "data_title": "대중교통 개선 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "대중교통 개선 정책이 시행되었으나, 큰 품질 향상이 이루어지지 않아 시민들의 불만이 제기되었다. 이는 공익성 측면에서 미흡한 결과를 초래하였다."
+      },
+      {
+        "item_id": 152416,
+        "data_title": "서울시 환경 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "환경 정책 강화와 미세먼지 저감 사업을 추진하였으나, 효과가 미미하다는 평가를 받았다. 이는 보통 수준의 공익성을 나타낸다."
+      },
+      {
+        "item_id": 152417,
+        "data_title": "문화재 보호 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "서울의 문화재 보호 및 관리 강화를 위한 예산 증가를 발표하였다. 이는 문화유산의 보호를 위한 우수한 정책이다."
+      },
+      {
+        "item_id": 152418,
+        "data_title": "교통 혼잡 해소 계획",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "교통 혼잡 해소를 위한 대책을 발표하였으나, 시민들이 체감하지 못하고 있다는 지적이 있어 보통 수준의 공익성을 나타낸다."
+      },
+      {
+        "item_id": 152419,
+        "data_title": "지속 가능한 개발 목표",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "지속 가능한 발전을 위한 비전과 목표를 제시하고, 여러 시민단체와 협력하는 모습을 보였다. 이는 우수한 공익성을 나타낸다."
+      },
+      {
+        "item_id": 152420,
+        "data_title": "복지 예산 확대",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "복지 예산을 늘려 시민들의 복지 체감도를 상승시켰다. 이는 공공의 복지 향상을 위해 매우 우수한 정책이다."
+      },
+      {
+        "item_id": 152421,
+        "data_title": "청년 정책 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청년을 위한 정책 시행을 늘리고 다양한 프로그램을 운영함으로써 청년층의 지원을 강화하였다. 이는 우수한 공익성을 나타낸다."
+      },
+      {
+        "item_id": 152422,
+        "data_title": "노인복지 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "노인 복지 강화 및 일자리 창출은 공익성에 기여하는 중요한 정책으로, 이를 통해 사회적 약자를 지원하려는 의지가 돋보인다. 다만, 구체적인 실행 계획이 명확하지 않아 우수 등급을 부여한다."
+      },
+      {
+        "item_id": 152423,
+        "data_title": "대기환경 개선",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "C",
+        "rating_rationale": "대기환경 개선을 위한 국제적 협약 참여는 긍정적이나, 효과적인 실행이 미흡하다는 평가가 있어 양호 등급을 부여한다. 환경 문제는 공익성에 큰 영향을 미치므로 실행력 강화가 필요하다."
+      },
+      {
+        "item_id": 152424,
+        "data_title": "지역 균형 발전",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "지역 균형 발전 전략 수립은 공익적 가치를 지니나, 실질적인 변화가 미비하다는 점에서 보통 등급을 부여한다. 저소득층 지역의 발전은 사회적 불평등 완화에 기여할 수 있으나, 효과가 미비하면 의미가 퇴색된다."
+      },
+      {
+        "item_id": 152425,
+        "data_title": "안전 도시 조성",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "안전 도시 조성을 위한 범죄 예방 및 재난 대응 시스템 구축은 시민의 안전을 강조한 것으로 공익성에 크게 기여한다. 다만, 구체적인 실행 결과가 명확하지 않아 우수 등급을 부여한다."
+      },
+      {
+        "item_id": 152426,
+        "data_title": "수자원 관리 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "수자원 관리의 중요성을 언급하고 감사 시스템 도입을 제안한 것은 긍정적이나, 실행 방안이 부족하다는 비판이 있어 보통 등급을 부여한다. 수자원 관리는 공공의 이익에 직결되므로 실행 방안의 구체화가 필요하다."
+      },
+      {
+        "item_id": 152427,
+        "data_title": "소상공인 지원 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "C",
+        "rating_rationale": "코로나19로 피해를 입은 소상공인을 지원하는 정책은 공익적 가치를 지니나, 그 효과가 제한적이라는 평가가 있어 양호 등급을 부여한다. 소상공인 지원은 경제적 안정에 기여하나, 효과가 제한적이면 공익성에 한계가 있다."
+      },
+      {
+        "item_id": 152428,
+        "data_title": "시민참여 플랫폼 구축",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "시민 참여 플랫폼 구축은 공익적 가치를 지니나, 실제 운영에서 논란이 발생하고 있어 미흡 등급을 부여한다. 시민 참여는 민주주의에 기여하지만, 논란이 발생하면 공익성에 부정적인 영향을 미친다."
+      },
+      {
+        "item_id": 152429,
+        "data_title": "여성정책 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "여성 정책 강화와 성평등을 위한 프로그램 추진은 공익성에 크게 기여하는 정책으로, 이를 통해 성평등을 실현하려는 의지가 돋보인다. 다만, 구체적인 실행 결과가 명확하지 않아 우수 등급을 부여한다."
+      },
+      {
+        "item_id": 152430,
+        "data_title": "시민 안전 캠페인",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "시민 안전 캠페인을 통해 범죄 예방을 위한 노력을 기울인 것은 긍정적이나, 실질적인 결과가 부족하다는 분석이 있어 보통 등급을 부여한다. 시민 안전은 공익성에 큰 영향을 미치므로 결과의 중요성이 크다."
+      },
+      {
+        "item_id": 152431,
+        "data_title": "환경 교육 확대",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청소년을 대상으로 한 환경 교육 강화는 미래 세대의 환경 의식을 높이는 중요한 정책으로 공익성에 기여한다. 관련 프로그램을 개발하고 있다는 점에서 우수 등급을 부여한다. 다만, 구체적인 결과가 명확하지 않아 우수 등급으로 제한한다."
+      },
+      {
+        "item_id": 152282,
+        "data_title": "부동산 재개발 정책의 강제 이주 논란",
+        "collected_by": "Grok",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "재개발 정책이 저소득층의 강제 이주를 초래하며 주거 안정성을 저해하였다. 공익적 균형 발전을 무시하고 개발 우선주의를 보였다는 비판이 있다. 이는 공익성에 매우 부족한 사례로 평가된다."
+      },
+      {
+        "item_id": 152283,
+        "data_title": "코로나19 대응의 백신 배포 지연 문제",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "E",
+        "rating_rationale": "코로나19 대응에서 백신 배포 지연으로 고위험군 보호에 실패하였다. 이는 공공 보건 복지를 저해한 사례로, 공익적 환경 보호와 시민 안전을 위협받았다. 공익성 면에서 미흡하다."
+      },
+      {
+        "item_id": 152284,
+        "data_title": "환경 정책의 오염 유발 비판",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "F",
+        "rating_rationale": "도시 개발 정책으로 인해 환경 오염과 생태계 파괴가 발생하였다. 공익적 환경 보호를 무시하고 경제적 이익을 우선시켰으며, 지속 가능한 발전에 부정적 영향을 미쳤다. 공익성에 매우 부족하다."
+      },
+      {
+        "item_id": 152285,
+        "data_title": "복지 예산 삭감 관련 논란",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "E",
+        "rating_rationale": "복지 예산 삭감이 저소득층 지원을 약화시키며 사회 불평등을 심화시켰다. 공익적 복지 우선 원칙을 저버리고 예산 효율성을 강조하였다. 이는 공익성에 미흡한 사례로 평가된다."
+      },
+      {
+        "item_id": 152286,
+        "data_title": "투명성 부족과 공공 프로젝트 실패",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "E",
+        "rating_rationale": "공공 프로젝트 관리에서 투명성 부족으로 예산 유출 문제가 발생하였다. 이는 공익적 자원 배분을 해치고 사익 침투를 초래하였다. 공익적 균형 발전을 저해한 사례로, 공익성에 미흡하다."
+      },
+      {
+        "item_id": 152287,
+        "data_title": "부동산 정책의 부유층 편향 논란",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "E",
+        "rating_rationale": "부동산 정책이 부유층 이익을 우선시켜 주거 불평등을 심화시켰다. 서민 주거 안정에 미흡하였으며, 공익적 균형 발전을 저해하였다. 이는 공익성에 미흡한 사례로 평가된다."
+      },
+      {
+        "item_id": 152288,
+        "data_title": "코로나19 대응의 백신 수급 실패",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "E",
+        "rating_rationale": "코로나19 대응에서 백신 도입 및 배분 과정이 지연되고 부정확하였다. 고위험군 보호가 미흡하여 공익적 복지와 안전을 소홀히 하였다. 이는 공익성에 미흡한 사례로 평가된다."
+      },
+      {
+        "item_id": 152289,
+        "data_title": "용산 개발 계획의 주민 피해 문제",
+        "collected_by": "Grok",
+        "original_rating": "H",
+        "new_rating": "F",
+        "rating_rationale": "용산 개발 프로젝트가 강제 이주와 주민 권리 침해를 초래하였다. 공익적 환경 보호와 주민 의견 수렴을 제대로 하지 않아 지역 불평등이 심화되었다. 이는 공익성에 매우 부족한 사례로 평가된다."
+      },
+      {
+        "item_id": 152290,
+        "data_title": "미세먼지 대책의 환경 정책 미흡",
+        "collected_by": "Grok",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "미세먼지 대책이 효과적이지 못하고 단기적 행정에 그쳤다. 환경 보호를 공익의 핵심으로 삼지 않아 시민 건강에 위협을 주었다. 이는 공익성에 미흡한 사례로 평가된다."
+      },
+      {
+        "item_id": 152291,
+        "data_title": "복지 예산 축소와 저소득층 지원 부족",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "E",
+        "rating_rationale": "복지 예산 축소로 저소득층 지원이 부족하였다. 공익적 복지 우선 원칙을 따르지 않고 예산 배분이 불균형하였다. 이는 공익성에 미흡한 사례로 평가된다."
+      },
+      {
+        "item_id": 152292,
+        "data_title": "저소득층 복지 지원 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "저소득층 복지 예산 증가와 긴급생계비 지원 프로그램은 공익에 기여하나, 전체 인구 대비 커버리지가 제한적이므로 우수한 수준으로 평가. 복지 예산 증가율이 10% 이상 상승한 점은 긍정적."
+      },
+      {
+        "item_id": 152293,
+        "data_title": "미세먼지 대책 추진",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 저감 정책은 시민 건강을 보호하고 환경 보전에 기여하며, 전기버스 도입과 배출가스 저감 장치 지원 확대는 매우 우수한 공익성 평가를 받을 만하다. 15% 미세먼지 감소 목표는 구체적이고 야심차다."
+      },
+      {
+        "item_id": 152294,
+        "data_title": "도시 균형 발전 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "도시 균형 발전 프로젝트는 지역 불균형 해소와 취약 지역 인프라 개선에 중점을 두어 매우 우수한 공익성을 가진다. 5년 계획과 2조 원 규모의 예산 투입은 장기적이고 대규모적인 공익 기여를 의미한다."
+      },
+      {
+        "item_id": 152295,
+        "data_title": "공공주택 공급 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공공주택 공급 확대는 주거 안정성과 청년 및 무주택자의 삶의 질 향상에 기여하며, 3만 가구 이상의 공급은 매우 우수한 공익성을 나타낸다. 20% 공공주택 비율 달성 목표는 구체적이고 야심차다."
+      },
+      {
+        "item_id": 152296,
+        "data_title": "코로나19 대응 방역 정책",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 대응 방역 정책은 공공 보건을 우선시하며 대중교통 방역 강화와 검사소 확대, 백신 배포 시스템 구축으로 매우 우수한 공익성을 가진다. 1,000만 회 이상의 검사와 접종 지원은 매우 큰 기여."
+      },
+      {
+        "item_id": 152297,
+        "data_title": "공교육 강화 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "공교육 강화 정책은 교육 불평등 해소와 저소득층 학생 지원에 기여하며, 교육 예산 15% 증가는 매우 우수한 공익성을 나타낸다. 공립학교 시설 개선과 무상교육 확대는 장기적 공익 기여를 의미한다."
+      },
+      {
+        "item_id": 152298,
+        "data_title": "지속 가능한 에너지 전환",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "지속 가능한 에너지 전환은 화석연료 의존 감소와 환경 보전에 기여하며, 태양광 패널 설치와 재생에너지 전환 목표는 매우 우수한 공익성을 가진다. 시민 참여 프로그램 운영은 공익성을 더욱 높인다."
+      },
+      {
+        "item_id": 152299,
+        "data_title": "청소년 복지 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "청소년 복지 프로그램은 청소년 우울증과 고립 방지에 기여하며, 심리 상담 센터와 취업 지원 프로그램 확대는 매우 우수한 공익성을 나타낸다. 20% 예산 증가와 1만 명 이상의 서비스 제공은 큰 기여."
+      },
+      {
+        "item_id": 152300,
+        "data_title": "노인 복지 강화",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "노인 복지 강화는 고령화 사회 대응과 노인의 삶의 질 향상에 기여하며, 노인 여가 시설과 의료 지원 확대는 매우 우수한 공익성을 가진다. 25% 예산 증가와 10곳의 노인복지관 신설은 큰 기여."
+      },
+      {
+        "item_id": 152301,
+        "data_title": "성평등 촉진 정책",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "성평등 촉진 정책은 여성의 사회 참여와 성별 임금 격차 개선에 기여하며, 성평등 지수 15% 향상은 매우 우수한 공익성을 나타낸다. 여성-dedicated 프로그램 추진은 공익성을 더욱 높인다."
+      },
+      {
+        "item_id": 152302,
+        "data_title": "소상공인 지원 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19로 어려운 소상공인을 위한 긴급 자금 지원과 온라인 마케팅 보조 확대는 경제적 약자를 직접적으로 지원하는 공익적 활동이다. 예산 증가와 많은 사업체 지원으로 실질적인 도움이 되었다."
+      },
+      {
+        "item_id": 152303,
+        "data_title": "도시 녹지 확장",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "도시 내 공원과 녹지 확대는 시민 건강과 환경 개선에 직접적인 영향을 미친다. 대규모 녹지 면적 증가는 공익적 가치가 매우 높다."
+      },
+      {
+        "item_id": 152304,
+        "data_title": "수자원 관리 강화",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "수자원 관리 강화는 장기적인 공익에 기여하지만, 예산 증가율이 상대적으로 낮아 우수한 수준에 머문다. 재난 예방에 중점을 둔 점은 긍정적이다."
+      },
+      {
+        "item_id": 152305,
+        "data_title": "대중교통 개선",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 개선은 교통 혼잡 감소와 시민 편의 증진에 기여한다. 10% 향상된 이용률은 공익적 가치가 높지만, 더 큰 변화를 기대할 수 있다."
+      },
+      {
+        "item_id": 152306,
+        "data_title": "스마트 시티 구축",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "스마트 시티 구축은 도시 관리 효율성을 높여 공익에 기여하지만, 직접적인 시민 혜택이 명확하지 않아 우수한 수준에 머문다. 많은 센서 설치는 긍정적이다."
+      },
+      {
+        "item_id": 152307,
+        "data_title": "재난 대비 시스템",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "재난 대비 시스템 확대는 시민 안전을 최우선으로 하는 공익적 활동이다. 예산 증가와 대피 훈련 실시는 매우 우수한 공익성을 보여준다."
+      },
+      {
+        "item_id": 152308,
+        "data_title": "문화 시설 확충",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "문화 시설 확충은 시민의 문화 접근성을 높여 공익적 가치가 매우 높다. 저소득층 무료 입장 프로그램 도입은 사회적 약자를 배려한 점에서 우수하다."
+      },
+      {
+        "item_id": 152309,
+        "data_title": "일자리 창출 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "일자리 창출 프로그램은 실업 문제 해결에 직접적으로 기여하며, 신규 일자리 10만 개 창출 목표는 매우 우수한 공익성을 보여준다."
+      },
+      {
+        "item_id": 152310,
+        "data_title": "건강 증진 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "건강 증진 캠페인은 예방의료를 통해 시민 건강을 향상시키는 공익적 활동이다. 무료 건강 검진과 운동 시설 확대는 매우 우수한 공익성을 가진다."
+      },
+      {
+        "item_id": 152311,
+        "data_title": "한강 재생 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "한강 재생 프로젝트는 환경 회복과 시민 접근성을 동시에 높이는 공익적 활동이다. 대규모 예산 투입과 실질적인 성과는 매우 우수하다."
+      },
+      {
+        "item_id": 152312,
+        "data_title": "코로나19 대응 정책",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "코로나19 대응 정책은 공익을 우선한 행보로, 백신 접종과 방역 강화를 통해 시민의 일상 복귀를 지원했으나, 효과성 논란이 있어 양호한 수준으로 평가됩니다."
+      },
+      {
+        "item_id": 152313,
+        "data_title": "한강 르네상스 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "한강 르네상스 프로젝트는 시민 휴식 공간을 증대시키고 도시 미관을 개선해 우수한 공익성을 보였으나, 개발 비용 증가로 인한 세금 부담이 발생해 다소 감점되었습니다."
+      },
+      {
+        "item_id": 152314,
+        "data_title": "미세먼지 저감 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 저감 정책은 환경 보호와 시민 건강을 중시한 정책으로, 다양한 캠페인과 규제를 통해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152315,
+        "data_title": "주거 복지 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "주거 복지 확대는 저소득층의 주거 안정을 위해 공공임대주택 공급을 늘리고 재개발 지역 주민을 보호해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152316,
+        "data_title": "교육 지원 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "교육 지원 프로그램은 교육 격차 해소를 위해 무상급식과 온라인 학습 플랫폼을 도입해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152317,
+        "data_title": "교통 인프라 개선",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "교통 인프라 개선은 교통 체증 감소와 친환경 교통 수단 촉진을 통해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152318,
+        "data_title": "청년 일자리 창출",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 일자리 창출은 스타트업 지원과 취업 훈련 프로그램을 통해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152319,
+        "data_title": "고령자 복지 강화",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "고령자 복지 강화는 노인 복지 시설 확대와 무료 건강 검진을 통해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152320,
+        "data_title": "환경 보호 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "환경 보호 캠페인은 플라스틱 사용 제한과 재활용 촉진을 통해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152321,
+        "data_title": "재난 대비 시스템",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "재난 대비 시스템은 홍수와 지진 대비를 위한 인프라 개선과 대피 시설 확대를 통해 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152322,
+        "data_title": "다문화 가족 지원",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "다문화 가족 지원 정책은 사회 통합을 위한 중요한 공익적 가치를 지니며, 교육과 복지를 중심으로 한 접근은 매우 우수하다."
+      },
+      {
+        "item_id": 152323,
+        "data_title": "여성 정책 강화",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "여성의 경제적 권리와 성평등을 추구하는 정책은 공익적 가치가 매우 높으며, 공공 부문에서의 여성 참여 확대는 우수한 조치다."
+      },
+      {
+        "item_id": 152324,
+        "data_title": "장애인 복지 확대",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "장애인 복지 확대는 사회적 약자를 보호하고 접근성을 개선하는 공익적 조치로, 매우 우수한 정책이다."
+      },
+      {
+        "item_id": 152325,
+        "data_title": "문화 예술 지원",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "문화 예술 지원은 시민의 문화 접근성을 높이고 균형 발전을 도모하는 공익적 가치가 매우 높은 정책이다."
+      },
+      {
+        "item_id": 152326,
+        "data_title": "에너지 절약 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "에너지 절약 캠페인은 기후 변화 대응에 중요한 공익적 가치를 지니며, 환경 보호를 위한 우수한 조치다."
+      },
+      {
+        "item_id": 152327,
+        "data_title": "스타트업 육성 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "스타트업 육성 정책은 경제적 공익과 혁신을 촉진하며, 지역 균형 발전을 위한 매우 우수한 정책이다."
+      },
+      {
+        "item_id": 152328,
+        "data_title": "재정 관리 효율화",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "재정 관리 효율화는 세금 낭비 방지와 공익적 지출을 강조하는 우수한 조치이나, 복지 예산 재배분의 세부 사항이 더 필요하다."
+      },
+      {
+        "item_id": 152329,
+        "data_title": "공원 확대 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "공원 확대 프로젝트는 환경과 복지를 결합한 공익적 도시 개발로, 시민의 삶의 질을 높이는 매우 우수한 정책이다."
+      },
+      {
+        "item_id": 152330,
+        "data_title": "사회적 기업 지원",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "사회적 기업 지원은 취약 계층 고용을 강화하고 공익적 경제 모델을 도입하는 매우 우수한 전략이다."
+      },
+      {
+        "item_id": 152331,
+        "data_title": "지속 가능한 도시 계획",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "지속 가능한 도시 계획은 환경 보호와 도시 발전의 균형을 추구하는 매우 우수한 공익적 가치를 지닌 정책이다."
+      },
+      {
+        "item_id": 107721,
+        "data_title": "서울시 주택 정책 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "주택 공급 혼란으로 인해 시민들의 주거 안정성에 큰 영향을 미쳤으며, 공익성을 크게 훼손함. 재개발/재건축 속도조절 실패로 인한 문제는 공공의 이익에 부정적인 영향을 끼침."
+      },
+      {
+        "item_id": 107722,
+        "data_title": "코로나19 방역 정책 미흡",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "코로나19 확산기에 방역 대응이 미흡하여 집단감염 확산 위험을 증가시킴. 공공의 건강과 안전에 큰 위협을 초래함으로써 공익성을 크게 훼손함."
+      },
+      {
+        "item_id": 107723,
+        "data_title": "사회적 약자 지원 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "취약계층 복지예산 삭감 및 지원 축소로 사회안전망이 약화됨. 사회적 약자의 권리와 복지를 보호해야 할 공공의 책임을 다하지 못해 공익성에 큰 문제가 있음."
+      },
+      {
+        "item_id": 107724,
+        "data_title": "환경정책 일관성 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "미세먼지 저감 정책의 실효성이 미흡하고 장기적 환경전략이 부재하여 공공의 환경권을 보호하지 못함. 공익성에 부정적인 영향을 미침."
+      },
+      {
+        "item_id": 107725,
+        "data_title": "행정 투명성 문제",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "정책결정 과정의 폐쇄성과 정보공개 부족은 시민의 알 권리를 침해하고, 행정의 투명성을 저해함. 이는 공익성에 큰 결함을 초래함."
+      },
+      {
+        "item_id": 107726,
+        "data_title": "무상주택 공약 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "무상주택 공약의 재정적 부담과 실현 가능성 문제로 인해 공공의 재정 건전성을 위협하고, 시민들의 기대를 저버림. 공익성에 큰 결함이 있음."
+      },
+      {
+        "item_id": 107727,
+        "data_title": "서울시 재난지원금 분배 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "재난지원금 지급 방식과 대상에 대한 형평성 문제로 인해 공공의 이익을 균등하게 배분하지 못함. 이는 공익성에 부정적인 영향을 미침."
+      },
+      {
+        "item_id": 107728,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "F",
+        "new_rating": "E",
+        "rating_rationale": "주택 가격 안정화 정책 실패로 인한 부동산 가격 급등은 시민들의 경제적 부담을 증가시킴. 공공의 경제적 안정성을 해쳐 공익성에 큰 문제가 있음."
+      },
+      {
+        "item_id": 107729,
+        "data_title": "청년 정책 실효성 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "청년 주거 및 일자리 정책의 실효성 부족으로 인해 청년 세대의 불만이 고조됨. 공공의 청년 정책이 실질적인 성과를 내지 못해 공익성에 부정적인 영향을 미침."
+      },
+      {
+        "item_id": 107730,
+        "data_title": "환경 정책 비판",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "미세먼지 대책 미흡과 친환경 정책 추진 부진으로 인해 공공의 환경권을 보호하지 못함. 환경단체로부터 비판을 받는 것은 공익성에 부정적인 영향을 미침."
+      },
+      {
+        "item_id": 107731,
+        "data_title": "청년 주거 지원 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 주거 지원 정책은 청년들의 주거 안정성을 높이는 데 기여하여 사회적 공익성이 매우 높다. 매입임대주택 공급 확대와 청년월세 지원은 청년층의 주거 부담을 경감시키는 데 큰 도움이 된다."
+      },
+      {
+        "item_id": 107732,
+        "data_title": "코로나19 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 대응 정책은 시민들의 건강과 안전을 지키는 데 매우 중요한 역할을 한다. 방역 체계 강화와 백신 접종의 신속한 진행은 공익성을 극대화하는 정책이다."
+      },
+      {
+        "item_id": 107733,
+        "data_title": "도시 재생 사업",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "도시 재생 사업은 노후 지역의 활성화와 도시 환경 개선에 기여하지만, 재개발 과정에서 발생할 수 있는 주민들의 불편이나 이주 문제 등을 고려해야 한다. 전반적으로 공익성은 우수하다."
+      },
+      {
+        "item_id": 107734,
+        "data_title": "대중교통 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 정책은 시민들의 이동 편의성을 높이는 데 기여하여 공익성이 우수하다. 버스 노선 재편과 급행버스 확대는 교통 혼잡을 줄이고 시민들의 이동 시간을 단축시킨다."
+      },
+      {
+        "item_id": 107735,
+        "data_title": "기후변화 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "기후변화 대응 정책은 미래 세대를 위한 환경 보호에 기여하여 공익성이 매우 높다. 탄소중립 정책과 친환경 에너지 확대는 지속 가능한 도시 발전에 큰 도움이 된다."
+      },
+      {
+        "item_id": 107736,
+        "data_title": "취약계층 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "취약계층 지원 정책은 사회적 약자를 보호하고 지원하는 데 매우 중요한 역할을 한다. 긴급복지 지원과 돌봄 서비스 확대는 공익성을 극대화하는 정책이다."
+      },
+      {
+        "item_id": 107737,
+        "data_title": "소상공인 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "소상공인 지원 정책은 코로나19로 어려움을 겪는 소상공인들의 경영 안정화를 도와 사회적 공익성이 매우 높다. 긴급 지원금과 경영 안정화 프로그램은 소상공인들의 생존을 돕는다."
+      },
+      {
+        "item_id": 107738,
+        "data_title": "교육 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "교육 정책은 시민들의 교육 기회를 확대하고 교육 환경을 개선하는 데 기여하여 공익성이 우수하다. 온라인 교육 인프라 구축과 에듀테크 지원은 교육의 질을 높이는 데 도움이 된다."
+      },
+      {
+        "item_id": 107739,
+        "data_title": "일자리 창출",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "일자리 창출 정책은 청년과 사회적 기업을 지원하여 사회적 공익성을 매우 높인다. 청년 일자리 사업과 사회적 기업 지원은 경제 활성화와 고용 안정에 기여한다."
+      },
+      {
+        "item_id": 107740,
+        "data_title": "공원 및 녹지 조성",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공원 및 녹지 조성 정책은 도심 내 녹지 공간을 확대하여 시민들의 삶의 질을 높이는 데 기여하여 공익성이 매우 높다. 공원 확대와 생태축 조성은 환경 보호와 시민 건강에 큰 도움이 된다."
+      },
+      {
+        "item_id": 107741,
+        "data_title": "교통 인프라",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "광역 교통망 개선과 지하철 노선 확장은 대중교통 이용자에게 큰 혜택을 제공하며, 도시의 효율적인 이동을 가능하게 하여 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107742,
+        "data_title": "안전 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "범죄 예방을 위한 CCTV 확대와 도시 안전 인프라 구축은 시민의 안전을 최우선으로 하는 정책으로, 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107743,
+        "data_title": "문화예술 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "문화예술 바우처와 창작 지원 프로그램은 문화적 다양성과 창작 활동을 촉진하며, 시민의 문화적 삶의 질을 향상시키는 데 기여하여 공익성이 우수하다."
+      },
+      {
+        "item_id": 107744,
+        "data_title": "여성 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "여성 안전 정책과 경력단절 여성 지원은 사회적 약자의 보호와 경제적 자립을 돕는 중요한 정책으로, 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107745,
+        "data_title": "장애인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "장애인 일자리 지원과 접근성 개선은 장애인의 사회 참여와 생활 편의를 증진시키는 중요한 정책으로, 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107746,
+        "data_title": "주거 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "공공주택 공급과 주거 안정성 확보는 주거 취약 계층의 삶의 질을 향상시키는 중요한 정책으로, 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107747,
+        "data_title": "환경 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 저감과 친환경 에너지 정책은 환경 보호와 시민 건강을 동시에 챙기는 중요한 정책으로, 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107748,
+        "data_title": "스마트시티 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "디지털 서울 추진과 스마트 행정 서비스는 행정의 효율성을 높이고 시민의 편의를 증진시키는 데 기여하여 공익성이 우수하다."
+      },
+      {
+        "item_id": 107749,
+        "data_title": "외국인 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "다문화 지원과 외국인 커뮤니티 지원은 다문화 가정과 외국인의 사회적 통합을 돕는 중요한 정책으로, 공익성이 우수하다."
+      },
+      {
+        "item_id": 107750,
+        "data_title": "노인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "노인 일자리와 돌봄 서비스 확대는 고령층의 경제적 자립과 삶의 질을 향상시키는 중요한 정책으로, 공익성이 매우 우수하다."
+      },
+      {
+        "item_id": 107751,
+        "data_title": "청년수당 지원 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청년수당 지원은 청년들의 경제적 자립을 돕는 중요한 정책으로, 공익성 측면에서 우수하다. 다만, 재정 부담 등의 문제가 있으므로 B 등급을 부여한다."
+      },
+      {
+        "item_id": 107752,
+        "data_title": "서울형 긴급재난지원금",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 위기 극복을 위한 재난지원금은 시민들의 생활 안정을 돕는 매우 중요한 정책으로, 공익성 측면에서 매우 우수하다."
+      },
+      {
+        "item_id": 107753,
+        "data_title": "주거복지 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공공임대주택 공급 확대 및 청년 주거지원은 주거 취약계층의 안정적인 거주를 보장하는 정책으로, 공익성 측면에서 매우 우수하다."
+      },
+      {
+        "item_id": 107754,
+        "data_title": "감염병 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 방역 및 백신 접종 신속 지원은 공공보건을 위해 필수적인 정책으로, 공익성 측면에서 매우 우수하다."
+      },
+      {
+        "item_id": 107755,
+        "data_title": "취약계층 일자리 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "취약계층 일자리 정책은 사회적 약자를 위한 중요한 정책으로, 공익성 측면에서 우수하다. 다만, 효과성에 대한 지속적인 검증이 필요하다."
+      },
+      {
+        "item_id": 107756,
+        "data_title": "보행환경 개선",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "보행환경 개선은 시민들의 생활 편의를 높이는 정책으로, 공익성 측면에서 양호하다. 다만, 다른 정책에 비해 상대적으로 중요성이 낮다."
+      },
+      {
+        "item_id": 107757,
+        "data_title": "온실가스 감축",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "온실가스 감축 및 친환경 에너지 확대는 미래 세대를 위한 중요한 정책으로, 공익성 측면에서 우수하다. 다만, 실현 가능성에 대한 고려가 필요하다."
+      },
+      {
+        "item_id": 107758,
+        "data_title": "교통혁신",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "대중교통 개선 및 보행친화도시 추진은 시민들의 이동 편의를 높이는 정책으로, 공익성 측면에서 양호하다. 다만, 다른 정책에 비해 상대적으로 중요성이 낮다."
+      },
+      {
+        "item_id": 107759,
+        "data_title": "복지 인프라",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "어린이, 노인 복지시설 확충은 사회적 약자를 위한 중요한 정책으로, 공익성 측면에서 우수하다. 다만, 효과성에 대한 지속적인 검증이 필요하다."
+      },
+      {
+        "item_id": 107760,
+        "data_title": "전통시장 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "소상공인 및 전통시장 경제 활성화 정책은 지역 경제를 지원하는 중요한 정책으로, 공익성 측면에서 양호하다. 다만, 다른 정책에 비해 상대적으로 중요성이 낮다."
+      },
+      {
+        "item_id": 107761,
+        "data_title": "스마트시티 구축",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "스마트시티 구축은 디지털 기술을 활용하여 도시의 효율성을 높이고, 시민의 삶의 질을 개선할 수 있는 중요한 정책이다. 다만, 구체적인 실행 계획과 효과에 대한 검증이 필요하다."
+      },
+      {
+        "item_id": 107762,
+        "data_title": "미세먼지 대책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 대책은 공공의 건강과 환경 보호를 위해 매우 중요한 정책이다. 대기질 개선은 시민의 삶에 직접적인 영향을 미치며, 장기적인 효과를 기대할 수 있다."
+      },
+      {
+        "item_id": 107763,
+        "data_title": "여성 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "성평등 및 여성 권익 보호는 사회적 정의와 공정성을 증진시키는 중요한 정책이다. 여성의 권익 보호는 사회 전반의 공익에 기여하며, 다양한 계층의 삶의 질을 향상시킨다."
+      },
+      {
+        "item_id": 107764,
+        "data_title": "장애인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "A",
+        "rating_rationale": "장애인 복지는 사회적 약자를 위한 필수적인 정책이다. 장애인의 삶의 질을 향상시키고, 사회적 통합을 촉진하는 데 기여하며, 공익적 가치가 매우 높다."
+      },
+      {
+        "item_id": 107765,
+        "data_title": "공원녹지 확충",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "공원녹지 확충은 도시 환경을 개선하고, 시민의 건강과 휴식을 돕는 중요한 정책이다. 다만, 공원의 효율적 관리와 접근성 향상이 필요하다."
+      },
+      {
+        "item_id": 107766,
+        "data_title": "문화예술 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "문화예술 지원은 지역 문화의 활성화와 시민의 삶의 질 향상에 기여한다. 다만, 지원의 효과성과 지속 가능성에 대한 검토가 필요하다."
+      },
+      {
+        "item_id": 107767,
+        "data_title": "청년 주거정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 주거정책은 사회적 약자인 청년층의 주거 안정을 지원하는 중요한 정책이다. 청년의 삶의 질 향상과 사회적 안정에 기여하며, 공익적 가치가 매우 높다."
+      },
+      {
+        "item_id": 107768,
+        "data_title": "교육 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "교육 정책은 시민의 평생 학습과 교육 인프라 지원을 통해 사회적 발전을 촉진한다. 다만, 교육의 질과 접근성에 대한 지속적인 개선이 필요하다."
+      },
+      {
+        "item_id": 107769,
+        "data_title": "1인가구 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "1인가구 지원은 사회적 변화에 따른 새로운 형태의 가정을 지원하는 중요한 정책이다. 사회적 안정과 지원 체계 구축에 기여하며, 다만, 효과적인 지원 방안이 필요하다."
+      },
+      {
+        "item_id": 107770,
+        "data_title": "안전도시 구현",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "안전도시 구현은 시민의 안전과 생명을 보호하는 매우 중요한 정책이다. 도시 안전 인프라와 범죄 예방은 공공의 이익에 직접적으로 기여하며, 사회적 안정성을 높인다."
+      }
+    ],
+    "Claude": [
+      {
+        "item_id": 152382,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "ChatGPT",
+        "original_rating": "H",
+        "new_rating": "F",
+        "rating_rationale": "서민 주거 안정성을 크게 위협하는 부동산 정책 실패는 공익에 심각한 해를 끼쳤으며, 시장으로서 핵심 책무인 주거 문제 해결에 실패한 중대한 결함을 보여준다."
+      },
+      {
+        "item_id": 152383,
+        "data_title": "재개발 사업의 비리 연루",
+        "collected_by": "ChatGPT",
+        "original_rating": "F",
+        "new_rating": "G",
+        "rating_rationale": "재개발 사업 비리 연루는 공직자 윤리성에 치명적 문제를 야기하며, 공공의 이익을 직접적으로 해치는 매우 심각한 공익 훼손 행위로 평가된다."
+      },
+      {
+        "item_id": 152384,
+        "data_title": "신규 도로 건설의 환경 영향",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "환경 파괴와 생태계 훼손을 초래하는 개발 정책은 지속가능한 발전과 환경 보호라는 공익 가치를 심각하게 훼손하며, 미래 세대에 대한 책임을 저버린 것으로 판단된다."
+      },
+      {
+        "item_id": 152385,
+        "data_title": "공공기관 무관용 정책 비판",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "공공기관의 자율성 저해와 공공 서비스 질 저하를 초래한 무관용 정책은 행정 효율성과 공공 서비스 향상이라는 공익 목표에 부정적 영향을 미쳤다."
+      },
+      {
+        "item_id": 152386,
+        "data_title": "세종시 특별법 논란",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "E",
+        "rating_rationale": "지역 간 불균형 심화 우려를 낳는 세종시 관련 정책은 국가 균형 발전이라는 공익 가치에 반하며, 지역 갈등을 조장할 수 있는 미흡한 접근으로 평가된다."
+      },
+      {
+        "item_id": 152387,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "반복된 부동산 정책 실패로 서민 주거 안정성이 지속적으로 위협받는 상황은 사회적 약자 보호와 주거권 보장이라는 기본적 공익 실현에 실패한 부족한 성과이다."
+      },
+      {
+        "item_id": 152388,
+        "data_title": "공공기관 이전 논란",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "공공기관 이전으로 인한 지역 경제 악영향과 일자리 감소는 지역 발전과 고용 안정이라는 공익 가치를 훼손하며, 정책의 파급효과를 충분히 고려하지 못한 미흡함을 보여준다."
+      },
+      {
+        "item_id": 152389,
+        "data_title": "요청받은 예산 삭감",
+        "collected_by": "ChatGPT",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "복지 예산 삭감으로 노인·아동 복지 서비스가 축소된 것은 사회적 약자 보호와 복지 증진이라는 핵심 공익 가치에 심각하게 반하는 부족한 정책 판단이다."
+      },
+      {
+        "item_id": 152390,
+        "data_title": "환경 정책 미비",
+        "collected_by": "ChatGPT",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "대기오염과 환경 보호에 대한 미흡한 대처는 시민 건강권과 환경권이라는 기본적 공익을 보장하지 못한 것으로, 지방자치단체장의 핵심 책무 수행에 부족함을 드러낸다."
+      },
+      {
+        "item_id": 152391,
+        "data_title": "지역 주민 의견 무시",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "지역 주민 의견 수렴 절차 부족은 민주적 의사결정과 주민 참여라는 지방자치의 기본 원칙을 훼손하며, 정책의 민주적 정당성을 약화시키는 미흡한 행정 운영이다."
+      },
+      {
+        "item_id": 152392,
+        "data_title": "서울시 재정개편",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "재정 효율화와 복지 예산 증대는 시민 전체의 삶의 질 향상에 직접적으로 기여하는 정책으로, 공공 서비스 향상을 통한 공익성이 높음. 다만 구체적인 성과 지표나 투명성에 대한 언급이 부족하여 우수 등급 부여"
+      },
+      {
+        "item_id": 152393,
+        "data_title": "주택 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년과 신혼부부를 위한 공공임대주택 확대는 서울의 심각한 주택난 해결에 기여하며, 사회적 약자층의 주거권 보장이라는 높은 공익성을 가짐. 지속가능한 도시 발전과 사회 통합에 매우 긍정적 영향"
+      },
+      {
+        "item_id": 152394,
+        "data_title": "교통 개선 사업",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 개선과 친환경 교통 수단 확산은 시민의 교통편의 증진과 환경보호라는 이중 공익을 달성. 교통 혼잡 해결로 경제적 효율성도 높임. 전체 시민이 혜택을 받는 보편적 공익성이 우수함"
+      },
+      {
+        "item_id": 152395,
+        "data_title": "환경 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "환경정책은 현재와 미래 세대 모두의 건강과 삶의 질에 직접 영향을 미치는 핵심 공익 분야. 녹지 공간 창출과 미세먼지 저감은 시민 건강권 보장과 지속가능한 도시 발전에 매우 중요한 기여"
+      },
+      {
+        "item_id": 152396,
+        "data_title": "디지털서울",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "디지털 도시 구축과 데이터 기반 시민 서비스 개선은 행정 효율성 증대와 시민 편의성 향상에 기여. 스마트 시티는 미래 도시 경쟁력 확보 측면에서 공익성이 높으나, 디지털 격차 해소 방안이 명시되지 않음"
+      },
+      {
+        "item_id": 152397,
+        "data_title": "사회적 경제 지원",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "사회적 경제 지원은 지역사회의 자립성 강화와 사회적 가치 창출에 기여하는 정책으로 공익성이 높음. 협동조합과 사회적 기업 육성은 포용적 경제성장과 일자리 창출 효과가 있어 우수한 공익적 가치"
+      },
+      {
+        "item_id": 152398,
+        "data_title": "노인 복지 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "고령화 사회에 대비한 노인 복지 정책은 필수적 공익 사업이나, '여전히 수요가 부족'하다는 한계가 명시됨. 복지시설 확대와 프로그램 다양화는 긍정적이지만 충분하지 않아 양호 수준의 공익성"
+      },
+      {
+        "item_id": 152399,
+        "data_title": "여성 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "여성의 경제적 자립 지원과 안전 확보는 성평등 실현과 사회안전망 구축이라는 중요한 공익적 가치를 담고 있음. 성폭력 예방 시스템 강화는 여성 인권 보호와 사회 안전에 직접적으로 기여하여 우수한 공익성"
+      },
+      {
+        "item_id": 152400,
+        "data_title": "청소년 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "청소년 교육 프로그램과 심리 상담 서비스, 인권 보호는 미래 세대 육성과 사회 발전의 기반이 되는 중요한 공익 사업. 청소년의 건전한 성장 지원은 장기적 사회 발전에 매우 중요한 투자로 우수한 공익성"
+      },
+      {
+        "item_id": 152401,
+        "data_title": "문화 예술 지원",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "문화예술 지원은 시민의 문화적 권리 보장과 도시 품격 향상에 기여하나, '특정 분야 집중으로 균형적 발전 부족'이라는 한계가 명시됨. 공익성은 인정되나 형평성과 포괄성 부족으로 보통 수준"
+      },
+      {
+        "item_id": 152402,
+        "data_title": "소상공인 지원 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "코로나19라는 국가적 위기 상황에서 경제적 피해를 입은 소상공인들에게 직접적인 지원을 제공하는 정책으로, 사회적 약자 보호와 경제 회복이라는 명확한 공익 목적을 달성하고 있어 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152403,
+        "data_title": "교통혼잡개선사업",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "C",
+        "rating_rationale": "교통혼잡 개선은 시민 전체의 이동권과 생활 편의성 향상에 기여하는 공익적 사업이나, 여전히 근본적인 문제 해결에는 미치지 못하고 있어 부분적 성과에 그치고 있어 양호한 수준으로 평가됩니다."
+      },
+      {
+        "item_id": 152404,
+        "data_title": "재활용 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "환경 보호와 지속가능한 도시 발전을 위한 재활용 정책은 현재와 미래 세대 모두에게 이익이 되는 중요한 공익사업이며, 시민 참여를 통한 사회적 합의 형성도 이루어지고 있어 우수한 공익성을 보입니다."
+      },
+      {
+        "item_id": 152405,
+        "data_title": "순환 경제 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "순환경제 정책은 자원의 효율적 활용과 환경 보호라는 장기적 공익 목표를 추구하며, 시민과 기업의 협력을 통한 지속가능한 발전 모델을 제시하고 있어 우수한 공익성을 가진 정책으로 평가됩니다."
+      },
+      {
+        "item_id": 152406,
+        "data_title": "재난 안전 관리",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "시민의 생명과 안전을 직접적으로 보호하는 재난 안전 관리는 정부의 가장 기본적이고 중요한 책무로서, 예방 교육과 시스템 구축을 통해 시민 전체의 안전을 확보하는 매우 높은 공익성을 실현하고 있습니다."
+      },
+      {
+        "item_id": 152407,
+        "data_title": "지역 균형 발전",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "지역 균형 발전은 중요한 공익 목표이나, 일부 지역에 대한 집중 투자로 인한 불균형이 발견되고 있어 정책의 본래 목적과 상충되는 결과를 보이고 있어 보통 수준의 공익성에 그치고 있습니다."
+      },
+      {
+        "item_id": 152408,
+        "data_title": "공공 의료 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "공공 의료 서비스 확충과 취약 계층에 대한 의료 보장성 강화는 시민의 건강권 보장이라는 기본적 인권과 직결된 정책으로, 사회적 약자 보호와 보편적 복지 실현에 기여하는 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152409,
+        "data_title": "다문화 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "다문화 가정 지원 정책은 사회적 소수자 보호와 문화적 다양성 존중이라는 중요한 공익 가치를 실현하며, 사회 통합과 포용성 증진에 기여하고 있어 우수한 공익성을 가진 정책으로 평가됩니다."
+      },
+      {
+        "item_id": 152410,
+        "data_title": "지역사회 통합",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "지역사회 통합 정책은 사회적 결속력 강화와 시민 참여 확대를 통한 민주주의 발전에 기여하며, 다양한 주체 간 협력을 통한 상생 모델을 제시하고 있어 우수한 수준의 공익성을 보여주고 있습니다."
+      },
+      {
+        "item_id": 152411,
+        "data_title": "교통 안전 개선",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "교통 안전 개선 정책은 시민의 생명과 안전을 보호하는 직접적인 공익 목적을 가지며, 예방 교육과 캠페인을 통한 사고 예방 노력이 시민 전체의 안전한 이동권 보장에 기여하고 있어 우수한 공익성을 보입니다."
+      },
+      {
+        "item_id": 152412,
+        "data_title": "서울시 코로나19 대응",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19라는 공중보건 위기 상황에서 적극적인 방역 체제 구축과 백신 접종 독려로 실제 감염률 감소라는 구체적 성과를 달성하여 시민 전체의 건강과 안전에 직접적으로 기여했습니다."
+      },
+      {
+        "item_id": 152413,
+        "data_title": "주택 공급 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "주택 공급 확대는 공익적 목표이나 주민 반발과 합의 문제가 해결되지 않아 정책 추진 과정에서 갈등이 발생했습니다. 공익 실현을 위한 민주적 절차와 소통이 부족한 상황입니다."
+      },
+      {
+        "item_id": 152414,
+        "data_title": "제주 재난지원금 지급",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "재난 상황에서 경제적 어려움을 겪는 시민들에게 직접적인 지원을 제공하여 실질적 도움이 되었습니다. 다만 제주 거주 서울시민이라는 특정 대상에 한정된 정책으로 보편적 공익성은 제한적입니다."
+      },
+      {
+        "item_id": 152415,
+        "data_title": "대중교통 개선 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "대중교통 개선이라는 공익적 목표를 설정했으나 실제 품질 향상이 이루어지지 않아 시민 불만이 제기되었습니다. 정책 의도는 좋으나 실행력과 성과가 부족하여 공익 실현에 미흡합니다."
+      },
+      {
+        "item_id": 152416,
+        "data_title": "서울시 환경 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "E",
+        "rating_rationale": "환경 정책 강화와 미세먼지 저감은 매우 중요한 공익적 과제이나 효과가 미미하다는 평가를 받고 있습니다. 정책 방향은 옳으나 실질적 성과 부족으로 공익 실현이 미흡한 상태입니다."
+      },
+      {
+        "item_id": 152417,
+        "data_title": "문화재 보호 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "문화재 보호는 공공의 문화유산을 보존하는 중요한 공익 사업이며 예산 증액 발표는 긍정적입니다. 다만 구체적 실행 계획이나 성과가 제시되지 않아 양호한 수준의 공익성을 보입니다."
+      },
+      {
+        "item_id": 152418,
+        "data_title": "교통 혼잡 해소 계획",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "교통 혼잡 해소는 시민 전체의 삶의 질 향상에 중요한 공익적 과제이나 많은 시민들이 체감하지 못한다는 지적이 있어 정책 효과성이 부족합니다. 공익 실현이 미흡한 상황입니다."
+      },
+      {
+        "item_id": 152419,
+        "data_title": "지속 가능한 개발 목표",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "지속가능한 발전 목표 제시와 시민단체와의 협력은 장기적 공익 실현을 위한 좋은 접근입니다. 다만 구체적 실행 방안이나 성과가 명시되지 않아 양호한 수준의 공익성을 보입니다."
+      },
+      {
+        "item_id": 152420,
+        "data_title": "복지 예산 확대",
+        "collected_by": "ChatGPT",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "복지 예산 확대로 시민들의 복지 체감도가 상승했다는 것은 사회적 약자 보호와 시민 전체의 삶의 질 향상에 기여하는 우수한 공익적 성과입니다. 실질적 효과가 확인된 정책입니다."
+      },
+      {
+        "item_id": 152421,
+        "data_title": "청년 정책 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "C",
+        "rating_rationale": "청년 정책 강화와 다양한 프로그램 운영은 미래 세대를 위한 공익적 투자입니다. 청년층이라는 특정 계층 대상이지만 사회 전체의 지속가능성 측면에서 양호한 공익성을 보입니다."
+      },
+      {
+        "item_id": 152422,
+        "data_title": "노인복지 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "노인복지 강화와 일자리 창출은 고령화 사회의 핵심 과제로 높은 공익성을 가지며, 사회적 약자 보호와 사회통합에 기여하는 정책이므로 우수한 등급을 부여함"
+      },
+      {
+        "item_id": 152423,
+        "data_title": "대기환경 개선",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "대기환경 개선과 국제협약 참여 의지는 공익적 가치가 있으나, 실행력 미흡으로 인해 실질적 효과가 제한적이어서 보통 수준의 평가를 받음"
+      },
+      {
+        "item_id": 152424,
+        "data_title": "지역 균형 발전",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "저소득층 지역 균형발전은 사회적 형평성 측면에서 중요한 공익적 가치를 지니나, 실질적 변화가 미비하여 정책 효과성이 떨어져 보통 등급으로 평가함"
+      },
+      {
+        "item_id": 152425,
+        "data_title": "안전 도시 조성",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "시민 안전은 기본적 공공서비스로서 매우 높은 공익성을 가지며, 범죄예방과 재난대응 시스템 구축은 시민 전체의 삶의 질 향상에 직결되어 우수한 평가를 받음"
+      },
+      {
+        "item_id": 152426,
+        "data_title": "수자원 관리 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "D",
+        "rating_rationale": "수자원 관리는 시민 생활과 직결된 중요한 공익적 정책이나, 구체적 실행방안 부족으로 인해 정책의 실효성에 의문이 제기되어 보통 수준으로 평가함"
+      },
+      {
+        "item_id": 152427,
+        "data_title": "소상공인 지원 정책",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "코로나19 피해 소상공인 지원은 경제적 약자 보호 측면에서 공익성이 높으나, 제한적 효과로 인해 실질적 도움이 부족하여 보통 등급으로 평가함"
+      },
+      {
+        "item_id": 152428,
+        "data_title": "시민참여 플랫폼 구축",
+        "collected_by": "ChatGPT",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "시민참여 플랫폼은 민주주의 발전에 기여할 수 있는 공익적 가치가 있으나, 운영상 논란 발생으로 오히려 시민 불신을 야기할 수 있어 미흡한 등급을 부여함"
+      },
+      {
+        "item_id": 152429,
+        "data_title": "여성정책 강화",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "여성정책 강화와 성평등 프로그램은 사회적 형평성과 인권 보장 측면에서 높은 공익성을 가지며, 사회 전반의 균형발전에 기여하여 우수한 평가를 받음"
+      },
+      {
+        "item_id": 152430,
+        "data_title": "시민 안전 캠페인",
+        "collected_by": "ChatGPT",
+        "original_rating": "C",
+        "new_rating": "D",
+        "rating_rationale": "시민 안전 캠페인은 공공안전 확보라는 중요한 공익적 목적을 가지나, 실질적 결과 부족으로 인해 정책 효과성이 의문시되어 보통 수준으로 평가함"
+      },
+      {
+        "item_id": 152431,
+        "data_title": "환경 교육 확대",
+        "collected_by": "ChatGPT",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청소년 환경교육 강화는 미래세대 교육과 환경보호라는 장기적 공익 실현에 기여하며, 지속가능한 사회 발전의 기반을 마련하는 정책으로 우수한 평가를 받음"
+      },
+      {
+        "item_id": 152282,
+        "data_title": "부동산 재개발 정책의 강제 이주 논란",
+        "collected_by": "Grok",
+        "original_rating": "E",
+        "new_rating": "F",
+        "rating_rationale": "저소득층 강제 이주는 주거권이라는 기본권을 침해하고 사회적 약자를 배려하지 못한 정책으로, 공익성 측면에서 심각한 문제가 있음. 개발 우선주의로 인한 사회적 형평성 저해가 명확함."
+      },
+      {
+        "item_id": 152283,
+        "data_title": "코로나19 대응의 백신 배포 지연 문제",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "코로나19라는 공중보건 위기 상황에서 백신 배포 지연은 시민의 생명과 안전을 직접적으로 위협하는 중대한 실패임. 고위험군 보호 실패는 공익성 관점에서 매우 부족한 대응임."
+      },
+      {
+        "item_id": 152284,
+        "data_title": "환경 정책의 오염 유발 비판",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "F",
+        "rating_rationale": "환경 오염 증가와 생태계 파괴는 현재와 미래 세대의 삶의 질에 직접적 악영향을 미치는 문제임. 경제적 이익을 환경 보호보다 우선시한 것은 지속가능한 공익 실현에 크게 부족함."
+      },
+      {
+        "item_id": 152285,
+        "data_title": "복지 예산 삭감 관련 논란",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "복지 예산 삭감으로 인한 저소득층 지원 약화는 사회적 불평등을 심화시키고 취약계층의 기본적 생활권을 위협함. 공익적 복지 원칙을 저버린 것으로 평가됨."
+      },
+      {
+        "item_id": 152286,
+        "data_title": "투명성 부족과 공공 프로젝트 실패",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "G",
+        "rating_rationale": "공공 프로젝트의 투명성 부족과 예산 유출은 공적 자원의 사적 남용을 의미하며, 시민의 세금으로 운영되는 공공사업의 신뢰성을 크게 훼손함. 사익 침투는 공익성에 매우 부족한 결과임."
+      },
+      {
+        "item_id": 152287,
+        "data_title": "부동산 정책의 부유층 편향 논란",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "부유층 편향적 부동산 정책은 주거 불평등을 심화시키고 서민의 주거 안정을 위협함. 특정 계층의 이익을 우선시하여 사회적 형평성을 크게 저해한 정책으로 공익성이 부족함."
+      },
+      {
+        "item_id": 152288,
+        "data_title": "코로나19 대응의 백신 수급 실패",
+        "collected_by": "Grok",
+        "original_rating": "G",
+        "new_rating": "F",
+        "rating_rationale": "코로나19 백신 수급 실패는 시민의 생명과 건강을 보호해야 할 기본적 의무를 다하지 못한 것임. 특히 취약계층 피해 확대는 공익적 관점에서 매우 심각한 문제임."
+      },
+      {
+        "item_id": 152289,
+        "data_title": "용산 개발 계획의 주민 피해 문제",
+        "collected_by": "Grok",
+        "original_rating": "H",
+        "new_rating": "F",
+        "rating_rationale": "용산 개발 과정에서의 강제 이주와 주민 권리 침해는 개발 이익을 주민 복리보다 우선시한 결과임. 주민 의견 수렴 부족과 환경 보호 소홀은 공익성 실현에 부족함을 보여줌."
+      },
+      {
+        "item_id": 152290,
+        "data_title": "미세먼지 대책의 환경 정책 미흡",
+        "collected_by": "Grok",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "미세먼지 대책의 미흡함은 시민 건강에 직접적 영향을 미치는 중요한 환경 정책의 실패임. 단기적 접근으로 인한 장기적 계획 부족은 공익성 측면에서 미흡한 수준임."
+      },
+      {
+        "item_id": 152291,
+        "data_title": "복지 예산 축소와 저소득층 지원 부족",
+        "collected_by": "Grok",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "복지 예산 축소로 인한 저소득층 지원 부족은 사회적 안전망을 약화시키고 취약계층의 생활 안정을 위협함. 불균형한 예산 배분은 공익적 복지 원칙에 부족한 접근임."
+      },
+      {
+        "item_id": 152292,
+        "data_title": "저소득층 복지 지원 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "저소득층 복지 예산 10% 증가와 긴급생계비 지원은 사회적 약자 보호라는 공익적 가치를 실현하고 있으나, 전체 인구 대비 커버리지가 제한적이어서 보편적 공익성에는 한계가 있음"
+      },
+      {
+        "item_id": 152293,
+        "data_title": "미세먼지 대책 추진",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 15% 저감 목표와 전기버스 도입, 에너지 전환은 전 시민의 건강과 환경 보호에 직접적으로 기여하는 매우 우수한 공익성을 보여주며, 지속가능한 발전에도 부합함"
+      },
+      {
+        "item_id": 152294,
+        "data_title": "도시 균형 발전 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "2조 원 규모의 도시 균형 발전 프로젝트는 지역 격차 해소와 사회 통합을 위한 대규모 투자로, 장기적으로 서울 전체의 균형 발전과 사회 정의 실현에 매우 큰 공익적 가치를 제공함"
+      },
+      {
+        "item_id": 152295,
+        "data_title": "공공주택 공급 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "3만 가구 이상의 공공주택 공급과 공공주택 비율 20% 달성 목표는 주거권이라는 기본권 보장과 사회적 약자 지원에 매우 우수한 공익성을 보이며, 광범위한 시민에게 혜택을 제공함"
+      },
+      {
+        "item_id": 152296,
+        "data_title": "코로나19 대응 방역 정책",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 팬데믹 상황에서 1,000만 회 이상의 검사와 접종 지원, 방역 시스템 구축은 전 시민의 생명과 건강을 보호하는 최우선 공익 실현으로 매우 우수한 평가를 받을 만함"
+      },
+      {
+        "item_id": 152297,
+        "data_title": "공교육 강화 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "교육 예산 15% 증가와 교육 불평등 해소 노력은 교육권 보장이라는 중요한 공익적 가치를 실현하고 있으나, 구체적인 성과 지표나 수혜 규모가 명확하지 않아 우수 수준으로 평가됨"
+      },
+      {
+        "item_id": 152298,
+        "data_title": "지속 가능한 에너지 전환",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "공공건물 30%의 재생에너지 전환은 환경 보호와 지속가능성 측면에서 우수한 공익성을 보이나, 전체 에너지 소비에서 공공건물이 차지하는 비중을 고려할 때 파급효과가 제한적임"
+      },
+      {
+        "item_id": 152299,
+        "data_title": "청소년 복지 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "청소년 복지 예산 20% 증가와 1만 명 대상 서비스 제공은 미래 세대 보호라는 중요한 공익적 가치를 실현하고 있으나, 서울시 전체 청소년 인구 대비 상대적으로 제한적인 규모임"
+      },
+      {
+        "item_id": 152300,
+        "data_title": "노인 복지 강화",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "노인 복지 예산 25% 증가와 복지관 10곳 신설은 고령화 사회 대응과 노인 인권 보장이라는 공익적 가치를 실현하고 있으나, 급속한 고령화 속도 대비 상대적으로 제한적인 대응으로 보임"
+      },
+      {
+        "item_id": 152301,
+        "data_title": "성평등 촉진 정책",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "C",
+        "rating_rationale": "성평등 지수 15% 향상은 성평등이라는 중요한 사회적 가치 실현에 기여하고 있으나, 공공기관에 한정된 정책으로 민간 부문까지 포괄하지 못하여 전체적인 공익성은 양호 수준임"
+      },
+      {
+        "item_id": 152302,
+        "data_title": "소상공인 지원 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19라는 국가적 위기 상황에서 5만 개 사업체를 직접 지원하여 경제적 취약계층의 생존권을 보장하고, 지역경제 회복에 실질적으로 기여한 매우 우수한 공익성을 보임"
+      },
+      {
+        "item_id": 152303,
+        "data_title": "도시 녹지 확장",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "100만 제곱미터 이상의 대규모 녹지 확대는 환경개선과 시민 건강 증진에 직접적으로 기여하며, 미세먼지 저감과 도시열섬 완화 등 장기적 공익효과가 매우 우수함"
+      },
+      {
+        "item_id": 152304,
+        "data_title": "수자원 관리 강화",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "수자원 관리와 재난 예방은 시민 안전과 직결되는 중요한 공익사업이나, 예산 증가 폭(10%)과 구체적 성과지표가 상대적으로 제한적이어서 우수 수준으로 평가됨"
+      },
+      {
+        "item_id": 152305,
+        "data_title": "대중교통 개선",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "대중교통 개선을 통한 교통혼잡 완화와 이용률 10% 향상은 시민 편의성 증대, 환경오염 저감, 교통비 절약 등 다면적 공익효과가 매우 우수함"
+      },
+      {
+        "item_id": 152306,
+        "data_title": "스마트 시티 구축",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "5만 개 스마트 센서 설치를 통한 도시 인프라 디지털화는 행정효율성과 시민 편의성 향상에 기여하지만, 직접적인 공익효과 측정이 어려워 우수 수준으로 평가됨"
+      },
+      {
+        "item_id": 152307,
+        "data_title": "재난 대비 시스템",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "자연재해 대비 시스템 구축과 시민 교육은 생명과 재산 보호라는 최우선 공익가치를 실현하며, 예산 20% 증가와 정기적 훈련 실시로 매우 우수한 공익성을 보임"
+      },
+      {
+        "item_id": 152308,
+        "data_title": "문화 시설 확충",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "문화시설 확충과 저소득층 무료 프로그램은 문화 접근권 보장과 사회적 형평성 증진에 기여하지만, 생존권이나 안전과 같은 기본적 공익보다는 상위 단계 공익으로 우수 수준임"
+      },
+      {
+        "item_id": 152309,
+        "data_title": "일자리 창출 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "10만 개 신규 일자리 창출 목표는 실업 해결과 경제활성화에 직접 기여하는 핵심 공익사업으로, 시민의 생계와 사회 안정에 매우 우수한 효과를 가져올 것으로 평가됨"
+      },
+      {
+        "item_id": 152310,
+        "data_title": "건강 증진 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "예방의료 중심의 건강 캠페인과 시민 건강지수 10% 향상은 공공보건 증진과 의료비 절감이라는 이중 공익효과를 달성하여 매우 우수한 공익성을 보임"
+      },
+      {
+        "item_id": 152311,
+        "data_title": "한강 재생 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "1조원 규모의 한강 재생 프로젝트는 환경 복원과 시민 여가공간 제공에 기여하지만, 대규모 예산 대비 직접적 공익효과와 우선순위 측면에서 우수 수준으로 평가됨"
+      },
+      {
+        "item_id": 152312,
+        "data_title": "코로나19 대응 정책",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "팬데믹 상황에서 시민 건강과 경제 균형을 고려한 종합적 대응으로 공익성이 높으나, 일부 효과성 논란으로 인해 완전히 우수하다고 보기는 어려움"
+      },
+      {
+        "item_id": 152313,
+        "data_title": "한강 르네상스 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "C",
+        "rating_rationale": "시민 휴식공간 확대와 도시 미관 개선은 공익적이나, 개발 비용 증가로 인한 세금 부담이 발생하여 재정 효율성 측면에서 한계가 있음"
+      },
+      {
+        "item_id": 152314,
+        "data_title": "미세먼지 저감 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "환경 보호와 시민 건강이라는 핵심 공익을 직접 다루며, 차량 배출가스 규제와 전기버스 도입 등 구체적이고 실효성 있는 정책을 추진함"
+      },
+      {
+        "item_id": 152315,
+        "data_title": "주거 복지 확대",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "저소득층과 청년층의 주거 안정을 위한 정책으로 사회적 약자 보호와 주거 불평등 해소라는 중요한 공익적 가치를 실현함"
+      },
+      {
+        "item_id": 152316,
+        "data_title": "교육 지원 프로그램",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "교육 격차 해소와 저소득층 아동 우선 배려를 통해 교육 불평등을 줄이고, 코로나 시대 학습권 보장이라는 공익을 실현함"
+      },
+      {
+        "item_id": 152317,
+        "data_title": "교통 인프라 개선",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "교통 체증 해소와 친환경 교통 수단 촉진, 고령자·장애인 접근성 개선 등 다양한 공익을 추구하나 구체적 성과 언급이 부족함"
+      },
+      {
+        "item_id": 152318,
+        "data_title": "청년 일자리 창출",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청년 실업 문제 해결과 경제 활성화를 통한 공익 추구가 명확하며, 스타트업 지원과 취업 훈련 등 구체적 방안을 제시함"
+      },
+      {
+        "item_id": 152319,
+        "data_title": "고령자 복지 강화",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "고령화 사회 대응과 노인 복지 향상이라는 공익적 목표가 뚜렷하며, 건강 검진과 복지시설 확대 등 실질적 혜택을 제공함"
+      },
+      {
+        "item_id": 152320,
+        "data_title": "환경 보호 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "기후변화 대응과 지속가능한 환경 정책으로 장기적 공익을 추구하며, 시민 참여를 유도하여 사회적 인식 개선에 기여함"
+      },
+      {
+        "item_id": 152321,
+        "data_title": "재난 대비 시스템",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "시민 안전이라는 기본적이고 중요한 공익을 다루며, 재난 대비 인프라 구축과 취약지역 우선 투자로 형평성까지 고려함"
+      },
+      {
+        "item_id": 152322,
+        "data_title": "다문화 가족 지원",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "다문화 가족 지원 정책은 사회 통합과 외국인 주민의 복지 향상에 직접적으로 기여하는 공익적 정책입니다. 교육과 복지를 중점으로 한 체계적 접근이 돋보이며, 사회적 포용성 증진에 우수한 효과를 보입니다."
+      },
+      {
+        "item_id": 152323,
+        "data_title": "여성 정책 강화",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "성평등 실현을 위한 여성 일자리 창출과 임금 격차 해소 정책은 사회적 형평성 증진에 크게 기여합니다. 공공 부문에서의 여성 참여 확대는 사회 전반의 성평등 문화 확산에 우수한 공익적 가치를 제공합니다."
+      },
+      {
+        "item_id": 152324,
+        "data_title": "장애인 복지 확대",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "장애인 이동 지원과 직업 훈련 프로그램은 사회적 약자 보호라는 핵심 공익 가치를 실현합니다. 접근성 개선을 통한 실질적 복지 향상과 사회 참여 기회 확대는 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 152325,
+        "data_title": "문화 예술 지원",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "C",
+        "rating_rationale": "문화 예술 지원과 공공 문화 시설 확대는 시민의 문화적 권리 보장과 삶의 질 향상에 기여합니다. 예술가 지원을 통한 문화 생태계 활성화도 긍정적이나, 필수적 공익성 측면에서는 양호한 수준입니다."
+      },
+      {
+        "item_id": 152326,
+        "data_title": "에너지 절약 캠페인",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "에너지 효율화와 환경 보호 정책은 기후 변화 대응이라는 글로벌 공익 과제에 직접 기여합니다. LED 교체와 건물 절감 정책은 환경적 지속가능성과 시민 부담 경감을 동시에 달성하는 매우 우수한 공익 정책입니다."
+      },
+      {
+        "item_id": 152327,
+        "data_title": "스타트업 육성 정책",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "C",
+        "rating_rationale": "스타트업 육성과 청년 기업가 지원은 경제 활성화와 일자리 창출에 기여하는 공익적 정책입니다. 지역 균형 발전과 혁신 생태계 조성에 도움이 되나, 직접적 사회적 약자 지원보다는 양호한 수준의 공익성을 보입니다."
+      },
+      {
+        "item_id": 152328,
+        "data_title": "재정 관리 효율화",
+        "collected_by": "Grok",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "재정 효율화를 통한 복지 예산 재배분과 세금 낭비 방지는 공공 자원의 합리적 활용을 통해 시민 전체의 이익에 기여합니다. 투명하고 효율적인 재정 운용은 공익 실현의 기반이 되는 우수한 정책입니다."
+      },
+      {
+        "item_id": 152329,
+        "data_title": "공원 확대 프로젝트",
+        "collected_by": "Grok",
+        "original_rating": "A",
+        "new_rating": "B",
+        "rating_rationale": "공원 확대를 통한 시민 휴식 공간 제공은 환경 개선과 시민 복지를 동시에 추구하는 우수한 공익 정책입니다. 도시 환경 질 향상과 시민 건강 증진에 직접적으로 기여하며, 지속가능한 도시 발전의 모범 사례입니다."
+      },
+      {
+        "item_id": 152330,
+        "data_title": "사회적 기업 지원",
+        "collected_by": "Grok",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "사회적 기업 육성을 통한 취약 계층 고용 강화는 사회적 약자 보호와 경제적 자립 지원을 동시에 달성하는 매우 우수한 공익 정책입니다. 지속가능한 사회적 경제 모델 구축으로 장기적 공익 가치가 매우 높습니다."
+      },
+      {
+        "item_id": 152331,
+        "data_title": "지속 가능한 도시 계획",
+        "collected_by": "Grok",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "녹지 벨트와 친환경 건축을 통한 지속가능한 도시 계획은 환경 보호와 미래 세대를 위한 장기적 공익을 추구합니다. 도시 발전과 환경 보전의 균형을 통해 지속가능한 발전 목표 달성에 매우 우수한 기여를 합니다."
+      },
+      {
+        "item_id": 107721,
+        "data_title": "서울시 주택 정책 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "주택 공급 혼란은 시민의 주거권에 직접적인 악영향을 미치는 중대한 공익 저해 요소로, 재개발/재건축 정책 실패가 시민 생활에 부정적 파급효과를 초래했음"
+      },
+      {
+        "item_id": 107722,
+        "data_title": "코로나19 방역 정책 미흡",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "F",
+        "rating_rationale": "코로나19 방역 대응 미흡은 시민의 생명과 건강을 위험에 노출시키는 심각한 공익 저해 행위로, 집단감염 확산 위험은 공공보건에 치명적 영향을 미칠 수 있음"
+      },
+      {
+        "item_id": 107723,
+        "data_title": "사회적 약자 지원 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "사회적 약자 지원 축소는 사회정의와 형평성을 심각하게 훼손하며, 취약계층의 기본적 생존권을 위협하여 사회안전망 약화라는 중대한 공익 저해를 초래함"
+      },
+      {
+        "item_id": 107724,
+        "data_title": "환경정책 일관성 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "환경정책 일관성 부족과 미세먼지 저감 정책 실효성 미흡은 시민의 건강권과 환경권을 침해하며, 장기적 환경전략 부재는 지속가능한 도시발전에 부정적 영향을 미침"
+      },
+      {
+        "item_id": 107725,
+        "data_title": "행정 투명성 문제",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "행정 투명성 부족은 민주적 거버넌스의 핵심 원칙을 위배하며, 정보공개 부족은 시민의 알 권리를 침해하고 정책에 대한 시민 참여 기회를 제한함"
+      },
+      {
+        "item_id": 107726,
+        "data_title": "무상주택 공약 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "무상주택 공약의 실현 가능성 검토 부족은 재정 건전성을 위협하고, 비현실적 공약으로 시민에게 허위 기대를 조성하여 행정 신뢰성을 훼손함"
+      },
+      {
+        "item_id": 107727,
+        "data_title": "서울시 재난지원금 분배 논란",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "재난지원금 분배의 형평성 문제는 위기 상황에서 시민 간 불평등을 심화시키며, 공정한 행정서비스 제공이라는 공익적 가치를 훼손함"
+      },
+      {
+        "item_id": 107728,
+        "data_title": "부동산 정책 실패",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "F",
+        "new_rating": "F",
+        "rating_rationale": "부동산 가격 안정화 정책 실패는 시민의 주거 안정성을 심각하게 위협하며, 주택 가격 급등으로 인한 사회적 불평등 심화는 중대한 공익 저해 요소임"
+      },
+      {
+        "item_id": 107729,
+        "data_title": "청년 정책 실효성 부족",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "E",
+        "rating_rationale": "청년 정책의 실효성 부족은 미래 세대의 사회경제적 기회를 제한하며, 청년 주거 및 일자리 정책 실패는 사회 지속가능성과 세대 간 형평성을 훼손함"
+      },
+      {
+        "item_id": 107730,
+        "data_title": "환경 정책 비판",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "E",
+        "rating_rationale": "환경 정책 추진 부진은 시민의 환경권과 건강권을 침해하며, 미세먼지 대책 미흡은 공공보건에 부정적 영향을 미쳐 환경 공익을 저해함"
+      },
+      {
+        "item_id": 107731,
+        "data_title": "청년 주거 지원 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 주거 문제는 사회적 핵심 이슈로, 매입임대주택 공급과 월세 지원은 직접적이고 실질적인 공익 실현 정책입니다. 사회적 약자인 청년층의 주거 안정성 향상에 크게 기여하며, 장기적으로 사회 통합과 안정에 도움이 됩니다."
+      },
+      {
+        "item_id": 107732,
+        "data_title": "코로나19 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "코로나19 팬데믹 상황에서 시민의 생명과 안전을 보호하는 방역 체계 강화와 백신 접종은 최우선 공익 정책입니다. 전체 시민의 건강과 생명을 직접적으로 보호하며, 사회 전체의 안전망 구축에 핵심적 역할을 합니다."
+      },
+      {
+        "item_id": 107733,
+        "data_title": "도시 재생 사업",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "노후 지역 재개발과 도시 재생은 도시 인프라 개선과 주거 환경 향상에 기여하는 공익적 정책입니다. 다만 재개발 과정에서 기존 주민들의 젠트리피케이션 우려와 개발 이익의 공정한 분배 문제가 고려되어야 합니다."
+      },
+      {
+        "item_id": 107734,
+        "data_title": "대중교통 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 개선은 시민의 이동권 보장과 교통비 절약, 환경 개선에 기여하는 공익적 정책입니다. 버스 노선 재편과 급행버스 확대는 교통 접근성을 높이고 시민 편의를 증진시키며, 대기오염 감소에도 도움이 됩니다."
+      },
+      {
+        "item_id": 107735,
+        "data_title": "기후변화 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "기후변화 대응과 탄소중립 정책은 현재와 미래 세대 모두를 위한 필수적 공익 정책입니다. 친환경 에너지 확대는 지속가능한 발전과 환경 보호를 통해 장기적으로 시민 건강과 삶의 질 향상에 크게 기여합니다."
+      },
+      {
+        "item_id": 107736,
+        "data_title": "취약계층 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "취약계층 지원은 사회적 약자 보호라는 공익의 핵심 가치를 실현하는 정책입니다. 긴급복지 지원과 돌봄 서비스 확대는 사회 안전망 강화를 통해 사회 통합과 형평성 제고에 직접적으로 기여하며, 인간의 기본적 존엄성을 보장합니다."
+      },
+      {
+        "item_id": 107737,
+        "data_title": "소상공인 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "코로나19로 피해를 받은 소상공인 지원은 경제적 약자 보호와 지역 경제 활성화에 기여하는 공익적 정책입니다. 긴급 지원금과 경영 안정화 프로그램은 경제적 불평등 완화와 일자리 보호에 도움이 되며, 사회적 안정에 기여합니다."
+      },
+      {
+        "item_id": 107738,
+        "data_title": "교육 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "온라인 교육 인프라 구축과 에듀테크 지원은 교육 접근성 향상과 디지털 격차 해소에 기여하는 공익적 정책입니다. 특히 코로나19 상황에서 교육 연속성 보장과 미래 교육 환경 개선을 통해 시민의 교육받을 권리를 보장합니다."
+      },
+      {
+        "item_id": 107739,
+        "data_title": "일자리 창출",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "청년 일자리 창출과 사회적 기업 지원은 고용 안정성 향상과 사회적 가치 실현에 기여하는 공익적 정책입니다. 청년층의 경제적 자립 지원과 사회적 기업을 통한 지속가능한 일자리 창출은 사회적 통합과 경제 발전에 도움이 됩니다."
+      },
+      {
+        "item_id": 107740,
+        "data_title": "공원 및 녹지 조성",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "도심 내 공원 확대와 생태축 조성은 시민의 삶의 질 향상과 환경 개선에 기여하는 공익적 정책입니다. 녹지 공간 확대는 대기질 개선, 시민 휴식 공간 제공, 생태계 보전을 통해 현재와 미래 세대의 건강하고 쾌적한 도시 환경 조성에 기여합니다."
+      },
+      {
+        "item_id": 107741,
+        "data_title": "교통 인프라",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "광역 교통망 개선과 지하철 노선 확장은 시민들의 이동권 보장과 교통 편의성 향상에 직접적으로 기여하며, 경제활동 활성화와 지역균형발전에도 긍정적 영향을 미치는 매우 우수한 공익성을 가진 정책입니다."
+      },
+      {
+        "item_id": 107742,
+        "data_title": "안전 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "범죄 예방 CCTV 확대와 도시 안전 인프라 구축은 시민들의 생명과 안전을 보호하는 기본적이면서도 필수적인 공공서비스로, 모든 시민의 안전한 일상생활을 보장하는 매우 우수한 공익성을 보여줍니다."
+      },
+      {
+        "item_id": 107743,
+        "data_title": "문화예술 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "문화예술 바우처와 창작 지원 프로그램은 시민들의 문화향유권 증진과 예술가들의 창작활동 지원을 통해 문화적 삶의 질 향상에 기여하는 우수한 공익성을 가지고 있으나, 직접적인 생활 개선 효과는 상대적으로 제한적입니다."
+      },
+      {
+        "item_id": 107744,
+        "data_title": "여성 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "여성 안전 정책과 경력단절 여성 지원은 성평등 실현과 여성의 사회참여 확대를 통해 사회 전체의 인적자원 활용도를 높이고, 취약계층 보호라는 공공의 책무를 충실히 이행하는 매우 우수한 공익성을 보입니다."
+      },
+      {
+        "item_id": 107745,
+        "data_title": "장애인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "장애인 일자리 지원과 접근성 개선은 사회적 약자에 대한 보호와 사회통합을 실현하는 핵심적인 복지정책으로, 인권보장과 사회정의 구현이라는 공공의 가치를 실현하는 매우 우수한 공익성을 나타냅니다."
+      },
+      {
+        "item_id": 107746,
+        "data_title": "주거 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "공공주택 공급과 주거 안정성 확보는 시민들의 기본적인 주거권 보장과 주거비 부담 완화를 통해 사회안정성을 높이고, 특히 주거취약계층의 생활안정에 직접적으로 기여하는 매우 우수한 공익성을 가집니다."
+      },
+      {
+        "item_id": 107747,
+        "data_title": "환경 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 저감과 친환경 에너지 정책은 시민들의 건강권 보호와 지속가능한 환경 조성을 통해 현재와 미래 세대 모두의 삶의 질 향상에 기여하며, 기후변화 대응이라는 글로벌 과제 해결에도 참여하는 매우 우수한 공익성을 보입니다."
+      },
+      {
+        "item_id": 107748,
+        "data_title": "스마트시티 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "디지털 서울 추진과 스마트 행정 서비스는 행정효율성 증대와 시민 편의성 향상을 통해 공공서비스의 질을 높이는 우수한 정책이나, 디지털 격차 해소와 개인정보 보호 등의 과제가 함께 고려되어야 하는 상황입니다."
+      },
+      {
+        "item_id": 107749,
+        "data_title": "외국인 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "다문화 지원과 외국인 커뮤니티 지원은 사회통합과 다양성 존중이라는 가치를 실현하고 글로벌 도시로서의 포용성을 높이는 우수한 정책이지만, 전체 시민에게 미치는 직접적 영향은 상대적으로 제한적입니다."
+      },
+      {
+        "item_id": 107750,
+        "data_title": "노인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "노인 일자리와 돌봄 서비스 확대는 고령화 사회에서 노인층의 경제적 안정과 사회참여 기회를 제공하며, 돌봄 공백 해소를 통해 가족의 부담을 덜어주는 매우 우수한 공익성을 가진 필수적인 복지정책입니다."
+      },
+      {
+        "item_id": 107751,
+        "data_title": "청년수당 지원 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "청년층의 경제적 부담 완화와 사회진출 지원에 직접적으로 기여하는 정책으로 공익성이 높음. 다만 재정 지속가능성과 형평성 측면에서 보완이 필요할 수 있어 우수 등급 부여"
+      },
+      {
+        "item_id": 107752,
+        "data_title": "서울형 긴급재난지원금",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "A",
+        "new_rating": "A",
+        "rating_rationale": "코로나19라는 국가적 위기상황에서 시민들의 생계 지원과 경제 회복을 위한 필수적 정책으로 매우 높은 공익성을 보임. 사회 전반의 안정성 확보에 크게 기여하여 매우 우수 등급 부여"
+      },
+      {
+        "item_id": 107753,
+        "data_title": "주거복지 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "주거권은 기본권이며, 특히 청년층의 주거난 해결은 사회적 과제임. 공공임대주택 확대는 주거복지 향상과 사회통합에 매우 중요한 역할을 하여 매우 우수한 공익성을 보임"
+      },
+      {
+        "item_id": 107754,
+        "data_title": "감염병 대응",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "감염병 대응은 시민의 생명과 건강을 직접 보호하는 핵심적 공익 업무임. 신속한 방역과 백신 접종 지원은 공중보건 향상에 필수적이며 매우 높은 공익성을 가짐"
+      },
+      {
+        "item_id": 107755,
+        "data_title": "취약계층 일자리 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "취약계층의 경제적 자립과 사회참여 기회 확대는 사회통합과 형평성 제고에 중요한 역할을 함. 사회적 약자 보호와 일자리 창출이라는 이중 효과로 우수한 공익성을 보임"
+      },
+      {
+        "item_id": 107756,
+        "data_title": "보행환경 개선",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "보행환경 개선은 시민의 안전과 삶의 질 향상에 직결되는 정책임. 교통사고 예방과 건강한 도시환경 조성을 통해 전체 시민에게 혜택을 주어 우수한 공익성을 가짐"
+      },
+      {
+        "item_id": 107757,
+        "data_title": "온실가스 감축",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "기후변화 대응은 현세대뿐만 아니라 미래세대의 생존과 직결된 중대한 공익적 과제임. 탄소중립과 친환경 에너지 확대는 지속가능한 발전을 위해 매우 중요하여 매우 우수 등급 부여"
+      },
+      {
+        "item_id": 107758,
+        "data_title": "교통혁신",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "대중교통 개선과 보행친화도시 조성은 시민의 이동권 보장과 환경개선에 기여함. 교통비 절약, 대기질 개선, 도시 접근성 향상 등 다방면의 공익적 효과를 가져 우수함"
+      },
+      {
+        "item_id": 107759,
+        "data_title": "복지 인프라",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "A",
+        "rating_rationale": "어린이와 노인 복지시설 확충은 사회적 약자 보호와 복지 향상의 핵심 정책임. 미래세대와 고령층 모두를 아우르는 포용적 복지로서 매우 높은 공익성을 보임"
+      },
+      {
+        "item_id": 107760,
+        "data_title": "전통시장 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "소상공인과 전통시장 지원은 지역경제 활성화와 서민경제 보호에 중요한 역할을 함. 경제적 양극화 완화와 전통상권 보존이라는 공익적 가치를 실현하여 우수한 등급 부여"
+      },
+      {
+        "item_id": 107761,
+        "data_title": "스마트시티 구축",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "B",
+        "rating_rationale": "스마트시티 구축은 시민 편의성 향상과 행정 효율성 증대를 통해 공익에 기여하지만, 디지털 격차나 개인정보 보호 등의 부작용을 고려해야 하므로 우수 등급으로 평가"
+      },
+      {
+        "item_id": 107762,
+        "data_title": "미세먼지 대책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "미세먼지 대책은 시민 건강과 직결된 환경 문제로, 모든 시민의 삶의 질 향상에 필수적이며 공중보건에 미치는 영향이 매우 크므로 최고 등급으로 평가"
+      },
+      {
+        "item_id": 107763,
+        "data_title": "여성 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "A",
+        "rating_rationale": "여성 정책은 사회 전체의 성평등 실현과 인권 보장에 핵심적 역할을 하며, 사회 통합과 공정성 확보에 매우 중요한 공익적 가치를 지니므로 최고 등급으로 평가"
+      },
+      {
+        "item_id": 107764,
+        "data_title": "장애인 복지",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "E",
+        "new_rating": "A",
+        "rating_rationale": "장애인 복지 정책은 사회적 약자 보호와 포용적 사회 구현의 핵심으로, 인간의 존엄성과 기본권 보장에 직결되어 공익성이 매우 높으므로 최고 등급으로 평가"
+      },
+      {
+        "item_id": 107765,
+        "data_title": "공원녹지 확충",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "공원녹지 확충은 시민 건강증진, 환경개선, 도시 미관 향상에 기여하며 모든 시민이 혜택을 받을 수 있는 보편적 공익사업이므로 우수 등급으로 평가"
+      },
+      {
+        "item_id": 107766,
+        "data_title": "문화예술 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "C",
+        "rating_rationale": "문화예술 지원은 시민의 문화 향유권과 예술가 생계 지원에 도움이 되지만, 상대적으로 직접적 공익 효과가 제한적이고 수혜 대상이 특정 계층에 집중될 수 있어 양호 등급으로 평가"
+      },
+      {
+        "item_id": 107767,
+        "data_title": "청년 주거정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "청년 주거정책은 사회 진입 세대의 기본적 생활권 보장과 사회 안정성 확보에 필수적이며, 저출산 문제 해결과 사회 지속가능성에 직결되므로 최고 등급으로 평가"
+      },
+      {
+        "item_id": 107768,
+        "data_title": "교육 정책",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "D",
+        "new_rating": "B",
+        "rating_rationale": "교육 정책은 시민의 학습권 보장과 인적자원 개발을 통한 사회 발전에 기여하며, 평생교육을 통한 사회 통합 효과가 있어 공익성이 우수하므로 우수 등급으로 평가"
+      },
+      {
+        "item_id": 107769,
+        "data_title": "1인가구 지원",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "C",
+        "new_rating": "B",
+        "rating_rationale": "1인가구 지원은 급증하는 1인가구의 사회적 고립 해소와 복지 사각지대 해결에 기여하며, 현대 사회 변화에 대응하는 중요한 공익적 정책이므로 우수 등급으로 평가"
+      },
+      {
+        "item_id": 107770,
+        "data_title": "안전도시 구현",
+        "collected_by": "claude-3-5-haiku-20241022",
+        "original_rating": "B",
+        "new_rating": "A",
+        "rating_rationale": "안전도시 구현은 시민의 생명과 재산 보호라는 가장 기본적인 공익 실현에 해당하며, 모든 시민이 혜택을 받는 보편적 정책으로 공익성이 매우 높아 최고 등급으로 평가"
+      }
+    ]
+  },
+  "scores": {
+    "ChatGPT": {
+      "avg_rating": 4.1866666666666665,
+      "category_score": 80.93333333333334,
+      "total_items": 150,
+      "positive": 118,
+      "negative": 32
+    },
+    "Grok": {
+      "avg_rating": 4.72,
+      "category_score": 83.6,
+      "total_items": 150,
+      "positive": 118,
+      "negative": 32
+    },
+    "Claude": {
+      "avg_rating": 4.173333333333333,
+      "category_score": 80.86666666666666,
+      "total_items": 150,
+      "positive": 116,
+      "negative": 34
+    }
+  },
+  "final_score": 81.8
+}

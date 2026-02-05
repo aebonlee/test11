@@ -1,0 +1,429 @@
+// P3BA1: Real API - 회원
+/**
+ * Project Grid Task ID: P3BA1
+ * 작업명: 회원가입 API (Real - Supabase Auth)
+ * 생성시간: 2025-11-07
+ * 생성자: Claude-Sonnet-4.5
+ * 의존성: P2D1, P1BA1
+ * 설명: Supabase Auth 및 users 테이블 실제 연동
+ */
+
+import { NextRequest, NextResponse } from 'next/server';
+import { z } from 'zod';
+import { createClient, createAdminClient } from '@/lib/supabase/server';
+import {
+  validatePasswordStrength,
+  validatePasswordMatch,
+  validateEmail,
+  checkRateLimit,
+  generateRateLimitKey,
+  RATE_LIMIT_RULES,
+  extractIpAddress,
+} from '@/lib/security/auth';
+import { logger, logApiError } from '@/lib/utils/logger';
+
+// ============================================================================
+// Constants
+// ============================================================================
+// No mock constants - using real Supabase Auth
+
+// ============================================================================
+// Request Schema (Zod)
+// ============================================================================
+const signupSchema = z.object({
+  email: z
+    .string()
+    .email('유효한 이메일 주소를 입력해 주세요.')
+    .min(1, '이메일은 필수 항목입니다.'),
+
+  password: z
+    .string()
+    .min(12, '비밀번호는 최소 12자 이상이어야 합니다.')
+    .max(128, '비밀번호는 최대 128자까지 가능합니다.'),
+
+  password_confirm: z.string().min(1, '비밀번호 확인은 필수 항목입니다.'),
+
+  nickname: z
+    .string()
+    .min(2, '이름은 최소 2자 이상이어야 합니다.')
+    .max(100, '이름은 최대 100자까지 가능합니다.'),
+
+  terms_agreed: z
+    .boolean()
+    .refine((val) => val === true, '이용약관에 동의해야 합니다.'),
+
+  privacy_agreed: z
+    .boolean()
+    .refine((val) => val === true, '개인정보처리방침에 동의해야 합니다.'),
+
+  marketing_agreed: z.boolean().optional().default(false),
+});
+
+type SignupRequest = z.infer<typeof signupSchema>;
+
+// ============================================================================
+// POST /api/auth/signup
+// ============================================================================
+/**
+ * 회원가입 API (Real - Supabase Auth)
+ *
+ * @description Phase 3: Supabase Auth 및 users 테이블 실제 연동
+ * @route POST /api/auth/signup
+ * @access Public
+ *
+ * @param {string} email - 사용자 이메일
+ * @param {string} password - 비밀번호 (12자 이상, 대소문자+숫자+특수문자 포함)
+ * @param {string} password_confirm - 비밀번호 확인
+ * @param {string} nickname - 사용자 이름 (2-100자)
+ * @param {boolean} terms_agreed - 이용약관 동의
+ * @param {boolean} privacy_agreed - 개인정보처리방침 동의
+ * @param {boolean} [marketing_agreed] - 마케팅 수신 동의 (선택)
+ *
+ * @returns {201} { success: true, data: { user, message } }
+ * @returns {400} { success: false, error: { code, message, details } }
+ * @returns {409} { success: false, error: { code, message } } - 이메일 중복
+ * @returns {429} { success: false, error: { code, message } } - Rate limit
+ */
+export async function POST(request: NextRequest) {
+  try {
+    // 1. Rate Limiting (10분에 3회)
+    const ip = extractIpAddress(request);
+    const rateLimitKey = generateRateLimitKey(ip, 'signup');
+    const rateLimitResult = checkRateLimit(rateLimitKey, RATE_LIMIT_RULES.signup);
+
+    if (!rateLimitResult.allowed) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'RATE_LIMIT_EXCEEDED',
+            message: rateLimitResult.message,
+          },
+        },
+        {
+          status: 429,
+          headers: {
+            'Retry-After': Math.ceil(
+              (rateLimitResult.resetTime - Date.now()) / 1000
+            ).toString(),
+          },
+        }
+      );
+    }
+
+    // 2. Request Body Parsing
+    const body = await request.json();
+
+    // 3. Input Validation (Zod)
+    const validationResult = signupSchema.safeParse(body);
+
+    if (!validationResult.success) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'VALIDATION_ERROR',
+            message: '입력 데이터가 올바르지 않습니다.',
+            details: validationResult.error.flatten().fieldErrors,
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    const data: SignupRequest = validationResult.data;
+
+    // 4. Email Format Validation
+    if (!validateEmail(data.email)) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'INVALID_EMAIL',
+            message: '유효한 이메일 주소를 입력해 주세요.',
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    // 5. Password Match Validation
+    if (!validatePasswordMatch(data.password, data.password_confirm)) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'PASSWORD_MISMATCH',
+            message: '비밀번호가 일치하지 않습니다.',
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    // 6. Password Strength Validation
+    const passwordValidation = validatePasswordStrength(data.password);
+    if (!passwordValidation.isValid) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'WEAK_PASSWORD',
+            message: passwordValidation.errors[0],
+            details: {
+              errors: passwordValidation.errors,
+              suggestions: passwordValidation.suggestions,
+            },
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    // 7. Supabase Client Connection (Real - Phase 3)
+    const supabase = await createClient();
+
+    // 7.5. Check for duplicate email (Supabase doesn't throw error on duplicate)
+    const { data: existingUsers, error: checkError } = await supabase.auth.admin.listUsers();
+
+    if (!checkError && existingUsers) {
+      const emailExists = existingUsers.users.some(
+        user => user.email?.toLowerCase() === data.email.toLowerCase()
+      );
+
+      if (emailExists) {
+        return NextResponse.json(
+          {
+            success: false,
+            error: {
+              code: 'EMAIL_ALREADY_EXISTS',
+              message: '이미 가입된 이메일입니다.',
+            },
+          },
+          { status: 409 }
+        );
+      }
+    }
+
+    // 8. Create User with Supabase Auth (Real - Phase 3)
+    // Supabase Dashboard에서 이메일 확인 비활성화됨 (SMTP 문제 우회)
+    const { data: authData, error: authError } = await supabase.auth.signUp({
+      email: data.email,
+      password: data.password,
+      options: {
+        data: {
+          name: data.nickname,
+          marketing_agreed: data.marketing_agreed,
+        },
+        emailRedirectTo: 'https://www.politicianfinder.ai.kr/auth/callback',
+      },
+    });
+
+    // 9. Handle Supabase Auth Errors
+    if (authError) {
+      logger.error('회원가입 API: Supabase Auth 오류', {
+        action: 'signup',
+        resource: 'auth',
+      }, authError);
+
+      // Rate limit exceeded
+      if (authError.message.includes('rate') || authError.message.includes('limit') || authError.message.includes('email_send_rate_limit')) {
+        return NextResponse.json(
+          {
+            success: false,
+            error: {
+              code: 'RATE_LIMIT_EXCEEDED',
+              message: 'Supabase 이메일 발송 제한에 도달했습니다. 1시간 후 다시 시도해 주세요.',
+              details: authError.message,
+            },
+          },
+          { status: 429 }
+        );
+      }
+
+      // Email already exists
+      if (authError.message.includes('already registered') || authError.message.includes('already exists')) {
+        return NextResponse.json(
+          {
+            success: false,
+            error: {
+              code: 'EMAIL_ALREADY_EXISTS',
+              message: '이미 사용 중인 이메일입니다.',
+              details: authError.message,
+            },
+          },
+          { status: 409 }
+        );
+      }
+
+      // Invalid email format
+      if (authError.message.includes('invalid email')) {
+        return NextResponse.json(
+          {
+            success: false,
+            error: {
+              code: 'INVALID_EMAIL',
+              message: '유효한 이메일 주소를 입력해 주세요.',
+              details: authError.message,
+            },
+          },
+          { status: 400 }
+        );
+      }
+
+      // Other Supabase errors - 실제 에러 메시지 노출
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'SIGNUP_FAILED',
+            message: authError.message || '회원가입에 실패했습니다.',
+            details: authError.message,
+          },
+        },
+        { status: 400 }
+      );
+    }
+
+    // 10. Verify user creation
+    if (!authData.user) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'SIGNUP_FAILED',
+            message: '회원가입에 실패했습니다. 잠시 후 다시 시도해 주세요.',
+          },
+        },
+        { status: 500 }
+      );
+    }
+
+    // 11. Create user profile in users table (CRITICAL - must succeed)
+    // Fix: users 테이블의 실제 컬럼명 'user_id' 사용
+    const adminClient = createAdminClient();
+    const { data: profileData, error: profileError } = await adminClient
+      .from('users')
+      .insert({
+        user_id: authData.user.id, // users 테이블의 PK는 'user_id'
+        email: data.email,
+        nickname: data.nickname, // nickname 컬럼 사용
+        name: data.nickname, // name 컬럼에도 저장
+        role: 'user',
+        points: 0,
+        level: 1,
+        is_banned: false,
+        is_active: true,
+        terms_agreed: true,
+        privacy_agreed: true,
+        marketing_agreed: data.marketing_agreed || false,
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+      } as any) // TypeScript 타입 체크 우회 (database.types.ts에 users 테이블 타입 미정의)
+      .select()
+      .single();
+
+    // CRITICAL: users 테이블 삽입 실패 시 auth.users도 삭제 (롤백)
+    if (profileError) {
+      logger.error('회원가입 API: users 테이블 삽입 오류', {
+        action: 'signup',
+        resource: 'users_table',
+        userId: authData.user.id,
+      }, profileError);
+
+      // auth.users에서 사용자 삭제 (롤백)
+      try {
+        await adminClient.auth.admin.deleteUser(authData.user.id);
+        logger.info('회원가입 API: auth.users 롤백 완료', {
+          action: 'rollback',
+          userId: authData.user.id,
+        });
+      } catch (deleteError) {
+        logger.error('회원가입 API: auth.users 롤백 실패', {
+          action: 'rollback',
+          userId: authData.user.id,
+        }, deleteError);
+      }
+
+      // 상세 오류 메시지 생성
+      let detailedMessage = '회원가입 처리 중 오류가 발생했습니다.';
+      const errorMsg = profileError.message?.toLowerCase() || '';
+
+      if (errorMsg.includes('duplicate') || errorMsg.includes('unique') || profileError.code === '23505') {
+        detailedMessage = '이미 가입된 이메일이거나 닉네임입니다. 다른 정보로 시도해 주세요.';
+      } else if (errorMsg.includes('null') || errorMsg.includes('not-null')) {
+        detailedMessage = '필수 정보가 누락되었습니다. 모든 필수 항목을 입력해 주세요.';
+      } else if (errorMsg.includes('permission') || errorMsg.includes('policy')) {
+        detailedMessage = '권한 오류가 발생했습니다. 관리자에게 문의해 주세요.';
+      } else if (errorMsg.includes('connection') || errorMsg.includes('timeout')) {
+        detailedMessage = '서버 연결에 실패했습니다. 잠시 후 다시 시도해 주세요.';
+      } else {
+        detailedMessage = `회원가입 처리 중 오류: ${profileError.message || '알 수 없는 오류'}`;
+      }
+
+      return NextResponse.json(
+        {
+          success: false,
+          error: {
+            code: 'PROFILE_CREATION_FAILED',
+            message: detailedMessage,
+            details: profileError.message,
+            hint: profileError.hint || null,
+          },
+        },
+        { status: 500 }
+      );
+    }
+
+    logger.info('회원가입 API: 사용자 생성 완료', {
+      action: 'signup',
+      resource: 'user',
+      userId: authData.user.id,
+    });
+
+    // 12. Success Response
+    return NextResponse.json(
+      {
+        success: true,
+        data: {
+          user: {
+            id: authData.user.id,
+            email: authData.user.email,
+            name: data.nickname,
+            email_confirmed: authData.user.email_confirmed_at !== null,
+          },
+          message:
+            '회원가입이 완료되었습니다. 이메일 인증을 완료해 주세요.',
+        },
+      },
+      { status: 201 }
+    );
+  } catch (error) {
+    logApiError('POST', '/api/auth/signup', error);
+
+    return NextResponse.json(
+      {
+        success: false,
+        error: {
+          code: 'INTERNAL_SERVER_ERROR',
+          message: '서버 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.',
+        },
+      },
+      { status: 500 }
+    );
+  }
+}
+
+// ============================================================================
+// OPTIONS /api/auth/signup
+// ============================================================================
+export async function OPTIONS(request: NextRequest) {
+  return new NextResponse(null, {
+    status: 204,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+    },
+  });
+}

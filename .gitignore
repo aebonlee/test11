@@ -1,0 +1,68 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+.env*.local
+.env.production
+.env.vercel.production
+*.env.production
+
+# Debug and Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.log.*
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+.temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Supabase
+.supabase/
+
+# Vercel
+.vercel
+
+# PROJECT GRID 매뉴얼 (비밀 노하우)
+**/PROJECT_GRID_매뉴얼*.md
+**/PROJECT_GRID_MANUAL*.md
+
+# PROJECT GRID 아카이브 (구버전 보관)
+**/0-5_Development_ProjectGrid/archive/
